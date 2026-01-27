@@ -677,18 +677,6 @@
         "ru": "Отмена",
         "tr": "İptal"
     },
-    "web.button.close": {
-        "cs-CZ": "Zavřít",
-        "de": "Schließen",
-        "en": "Close",
-        "es": "Cerrar",
-        "fr": "Fermer",
-        "nl-NL": "Sluiten",
-        "pl-PL": "Zamknij",
-        "pt-BR": "Fechar",
-        "ru": "Закрывать",
-        "tr": "Kapat"
-    },
     "web.button.comment": {
         "cs-CZ": "Napiš komentář",
         "de": "Kommentieren",
@@ -1720,18 +1708,6 @@
         "pt-BR": "Erro",
         "ru": "Ошибка",
         "tr": "Hata"
-    },
-    "web.modal.welcome_to_premium": {
-        "cs-CZ": "Vítejte u Premium!",
-        "de": "Willkommen bei Premium!",
-        "en": "Welcome to Premium!",
-        "es": "¡Bienvenido a Premium!",
-        "fr": "Bienvenue dans Premium !",
-        "nl-NL": "Welkom bij Premium!",
-        "pl-PL": "Witamy w Premium!",
-        "pt-BR": "Bem-vindo ao Premium!",
-        "ru": "Добро пожаловать в Premium!",
-        "tr": "Premium'a Hoş Geldiniz!"
     },
     "web.modal.you_ve_successfully_upgraded_to_premium": {
         "cs-CZ": "Úspěšně jste upgradovali na premium! Začněte prozkoumáváním archivů nebo správou předplatného.",

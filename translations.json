@@ -9,7 +9,8 @@
         "pl-PL": "popołudnie",
         "pt-BR": "tarde",
         "ru": "день",
-        "tr": "öğleden sonra"
+        "tr": "öğleden sonra",
+        "sv-SE": "eftermiddag"
     },
     "date_fmt": {
         "cs-CZ": "F j, Y",
@@ -24,7 +25,8 @@
         "pl-PL": "j F Y",
         "pt-BR": "j \\d\\e F \\d\\e Y",
         "ru": "j F Y",
-        "tr": "j F Y"
+        "tr": "j F Y",
+        "sv-SE": "j M Y"
     },
     "elsewhere": {
         "cs-CZ": "Najdi {newsletter} jinde:",
@@ -36,7 +38,8 @@
         "pl-PL": "Znajdź {newsletter} gdzie indziej:",
         "pt-BR": "Encontre {newsletter} em outro lugar:",
         "ru": "Найдите {newsletter} в других местах:",
-        "tr": "{newsletter} başka bir yerde bulun:"
+        "tr": "{newsletter} başka bir yerde bulun:",
+        "sv-SE": "Hitta {{ newsletter.name }} på andra ställen:"
     },
     "email.footer.actions": {
         "cs-CZ": "Můžeš <a href=\"{{ subscribe_url }}\">začít odebírat</a>, <a href=\"{{ unsubscribe_url }}\">odebírání zrušit</a>, nebo <a href=\"{{ email_url }}\">zobrazit tento e-mail v prohlížeči</a>.",
@@ -48,7 +51,8 @@
         "pl-PL": "Możesz się <a href=\"{{ subscribe_url }}\">zapisać</a>, <a href=\"{{ unsubscribe_url }}\">wypisać</a>, albo <a href=\"{{ email_url }}\">przeczytać to wydanie on-line</a>.",
         "pt-BR": "Você pode <a href=\"{{ subscribe_url }}\">subscrever</a>, <a href=\"{{ unsubscribe_url }}\">anular a subscrição</a> ou <a href=\"{{ email_url }}\">ver esta mensagem eletrónica em linha</a>.",
         "ru": "Вы можете <a href=\"{{ subscribe_url }}\">подписаться</a>, <a href=\"{{ unsubscribe_url }}\">отписаться</a> или <a href=\"{{ email_url }}\">открыть это письмо онлайн</a>.",
-        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a>, <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilir</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>."
+        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a>, <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilir</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>.",
+        "sv-SE": "Du kan <a href=\"{{ subscribe_url }}\">prenumerera</a>, <a href=\"{{ unsubscribe_url }}\">avsluta prenumerationen</a> eller <a href=\"{{ email_url }}\">visa detta e-postmeddelande online</a>."
     },
     "email.footer.actions_autonomy": {
         "cs-CZ": "Můžeš <a href=\"{{ subscribe_url }}\">začít odebírat</a>, <a href=\"{{ unsubscribe_url }}\">odebírání zrušit</a>, <a href=\"{{ manage_subscription_url }}\">předplatné spravovat</a> nebo <a href=\"{{ email_url }}\">zobrazit tento e-mail v prohlížeči</a>.",
@@ -60,7 +64,8 @@
         "pl-PL": "Możesz się <a href=\"{{ subscribe_url }}\">zapisać</a>, <a href=\"{{ unsubscribe_url }}\">wypisać</a>, <a href=\"{{ manage_subscription_url }}\">zarządzać swoją subskrypcją</a> albo <a href=\"{{ email_url }}\">przeczytać to wydanie on-line</a>.",
         "pt-BR": "Você pode <a href=\"{{ subscribe_url }}\">subscrever</a>, <a href=\"{{ unsubscribe_url }}\">anular a subscrição</a>, <a href=\"{{ manage_subscription_url }}\">gerenciar sua subscrição</a> ou <a href=\"{{ email_url }}\">ver esta mensagem eletrónica em linha</a>.",
         "ru": "Вы можете <a href=\"{{ subscribe_url }}\">подписаться</a>, <a href=\"{{ unsubscribe_url }}\">отписаться</a>, <a href=\"{{ manage_subscription_url }}\">управлять подпиской</a> или <a href=\"{{ email_url }}\">открыть это письмо онлайн</a>.",
-        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a>, <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilir</a>, <a href=\"{{ manage_subscription_url }}\">aboneliğinizi yönetebilirsiniz</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>."
+        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a>, <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilir</a>, <a href=\"{{ manage_subscription_url }}\">aboneliğinizi yönetebilirsiniz</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>.",
+        "sv-SE": "Du kan <a href=\"{{ subscribe_url }}\">prenumerera</a>, <a href=\"{{ unsubscribe_url }}\">avsluta</a>, <a href=\"{{ manage_subscription_url }}\">hantera</a> din prenumeration, eller <a href=\"{{ email_url }}\">visa detta e-postmeddelande online</a>."
     },
     "email.footer.actions_no_archives": {
         "cs-CZ": "Můžeš <a href=\"{{ subscribe_url }}\">začít odebírat</a>, nebo naopak <a href=\"{{ unsubscribe_url }}\">odebírání zrušit</a>.",
@@ -72,7 +77,8 @@
         "pl-PL": "Możesz się <a href=\"{{ subscribe_url }}\">zapisać</a> albo <a href=\"{{ unsubscribe_url }}\">wypisać</a>.",
         "pt-BR": "Você pode <a href=\"{{ subscribe_url }}\">subscrever</a> ou <a href=\"{{ unsubscribe_url }}\">anular a subscrição</a>.",
         "ru": "Вы можете <a href=\"{{ subscribe_url }}\">подписаться</a> или <a href=\"{{ unsubscribe_url }}\">отписаться</a>.",
-        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a> veya <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilirsiniz</a>."
+        "tr": "<a href=\"{{ subscribe_url }}\">Abone olabilir</a> veya <a href=\"{{ unsubscribe_url }}\">abonelikten çıkabilirsiniz</a>.",
+        "sv-SE": "Du kan <a href=\"{{ subscribe_url }}\">prenumerera</a> eller <a href=\"{{ unsubscribe_url }}\">avsluta prenumerationen</a>."
     },
     "email.footer.actions_private": {
         "cs-CZ": "Můžeš <a href=\"{{ unsubscribe_url }}\">zrušit odebírání</a>.",
@@ -84,7 +90,8 @@
         "pl-PL": "Możesz się <a href=\"{{ unsubscribe_url }}\">wypisać</a>.",
         "pt-BR": "Você pode <a href=\"{{ unsubscribe_url }}\">anular a inscrição</a>.",
         "ru": "Вы можете <a href=\"{{ unsubscribe_url }}\">отписаться</a>.",
-        "tr": "<a href=\"{{ unsubscribe_url }}\">Abonelikten çıkabilirsiniz</a>."
+        "tr": "<a href=\"{{ unsubscribe_url }}\">Abonelikten çıkabilirsiniz</a>.",
+        "sv-SE": "Du kan <a href=\"{{ unsubscribe_url }}\">avsluta prenumerationen</a>."
     },
     "email.footer.colophon": {
         "cs-CZ": "Toto je {{ email.secondary_id }}. vydání newsletteru {{ newsletter.name }}.",
@@ -96,7 +103,8 @@
         "pl-PL": "To jest wydanie numer {{ email.secondary_id }} newslettera {{ newsletter.name }}.",
         "pt-BR": "Esta foi a edição #{{ email.secondary_id }} do {{ newsletter.name }}.",
         "ru": "Это был выпуск №{{ email.secondary_id }} рассылки {{ newsletter.name }}.",
-        "tr": "Bu, {{ newsletter.name }} bülteninin #{{ email.secondary_id }} sayısıydı."
+        "tr": "Bu, {{ newsletter.name }} bülteninin #{{ email.secondary_id }} sayısıydı.",
+        "sv-SE": "Det här var nummer #{{ email.secondary_id }} av {{ newsletter.name }}."
     },
     "email.footer.colophon_draft": {
         "cs-CZ": "Toto je pracovní verze vydání {{ newsletter.name }}.",
@@ -108,7 +116,8 @@
         "pl-PL": "To jest szkic wydania newslettera {{ newsletter.name }}.",
         "pt-BR": "Esta foi uma edição de {{ newsletter.name }}.",
         "ru": "Это был черновой выпуск рассылки {{ newsletter.name }}.",
-        "tr": "Bu, {{ newsletter.name }} bülteninin taslak sayısıydı."
+        "tr": "Bu, {{ newsletter.name }} bülteninin taslak sayısıydı.",
+        "sv-SE": "Det här var ett utkast av {{ newsletter.name }}."
     },
     "email.footer.colophon_no_issue_number": {
         "cs-CZ": "Toto je vydání {{ newsletter.name }}.",
@@ -120,7 +129,8 @@
         "pl-PL": "To jest wydanie newslettera {{ newsletter.name }}.",
         "pt-BR": "Esta foi uma edição da {{ newsletter.name }}.",
         "ru": "Это был выпуск рассылки {{ newsletter.name }}.",
-        "tr": "Bu, {{ newsletter.name }} bülteninin bir sayısıydı."
+        "tr": "Bu, {{ newsletter.name }} bülteninin bir sayısıydı.",
+        "sv-SE": "Det här var ett nummer av {{ newsletter.name }}."
     },
     "email.footer.credit": {
         "cs-CZ": "Tento e-mail ti přinesl <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>. Nejjednodušší způsob, jak začít a rozvíjet svůj newsletter.",
@@ -132,7 +142,8 @@
         "pl-PL": "Ten newsletter fruwa na <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a> - najprostszej maszynce do takich publikacji.",
         "pt-BR": "Este e-mail chegou a você pelo <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, a maneira mais fácil de lançar e expandir a sua newsletter.",
         "ru": "Создано с помощью <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a> — простого способа начать и развивать рассылку.",
-        "tr": "Bu e-posta size <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a> tarafından sunulmuştur, bülteninizi başlatmanın ve büyütmenin en kolay yolu."
+        "tr": "Bu e-posta size <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a> tarafından sunulmuştur, bülteninizi başlatmanın ve büyütmenin en kolay yolu.",
+        "sv-SE": "Drivs av <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, det enklaste sättet att starta och växa ditt nyhetsbrev."
     },
     "email.footer.or_subscribe_below": {
         "cs-CZ": "nebo se přihlaste níže",
@@ -144,7 +155,8 @@
         "pl-PL": "lub zapisz się poniżej",
         "pt-BR": "ou inscreva-se abaixo",
         "ru": "или подпишитесь ниже",
-        "tr": "veya aşağıdan abone olun"
+        "tr": "veya aşağıdan abone olun",
+        "sv-SE": "eller prenumerera nedan"
     },
     "email.footer.powered_by": {
         "cs-CZ": "S použitím <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, nejlepšího způsobu, jak vytvořit a rozvíjet svůj newsletter.",
@@ -156,7 +168,8 @@
         "pl-PL": "Zmajstrowane w <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, najlepszym wynalazku, jaki znajdziesz w sieci.",
         "pt-BR": "Desenvolvido por <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, a melhor maneira de construir e fazer crescer sua newsletter.",
         "ru": "Создано с помощью <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a> — лучшего способа создавать и развивать рассылку.",
-        "tr": "Desteklenen <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, bülteninizi oluşturmanın ve büyütmenin en iyi yolu."
+        "tr": "Desteklenen <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, bülteninizi oluşturmanın ve büyütmenin en iyi yolu.",
+        "sv-SE": "Drivs av <a href=\"https://buttondown.com/refer/{{ newsletter.username }}\">Buttondown</a>, det bästa sättet att bygga och växa ditt nyhetsbrev."
     },
     "email.modern.comment_cta": {
         "cs-CZ": "Přidej komentář na webu",
@@ -168,7 +181,8 @@
         "pl-PL": "Zostaw komentarz na stronie",
         "pt-BR": "Deixe um comentário na web",
         "ru": "Оставить комментарий на сайте",
-        "tr": "Web üzerinde yorum bırak"
+        "tr": "Web üzerinde yorum bırak",
+        "sv-SE": "Lämna en kommentar på webben"
     },
     "email.modern.gifted_premium": {
         "cs-CZ": "Toto je premiové vydání. Prišlo ti, protože ti autor podaroval předplatné.",
@@ -180,7 +194,8 @@
         "pl-PL": "To jest wydanie premium, które dotarło do Ciebie, ponieważ autor przyznał Ci darmową subskrypcję premium.",
         "pt-BR": "Esta é uma edição premium que você recebeu porque o autor lhe deu uma assinatura premium gratuita.",
         "ru": "Это премиум-выпуск, который вы получили, потому что автор подарил вам бесплатную премиум-подписку.",
-        "tr": "Bu, yazardan ücretsiz premium abonelik aldığınız için aldığınız bir premium sayıdır."
+        "tr": "Bu, yazardan ücretsiz premium abonelik aldığınız için aldığınız bir premium sayıdır.",
+        "sv-SE": "Detta är ett premiuminnehåll som du har fått eftersom författaren har gett dig en gratis premiumprenumeration."
     },
     "email.modern.gifted_premium_paid": {
         "cs-CZ": "Toto je premiové vydání {{ newsletter.name }}, které ti přišlo v rámci předplatného. Děkujeme za podporu: můžeš si <a href=\"{{ manage_subscription_url }}\">spravovat předplatné</a> nebo <a href=\"{{ email_url }}\">zobrazit tento e-mail online</a>.",
@@ -192,7 +207,8 @@
         "pl-PL": "To jest wydanie premium {{ newsletter.name }}, które otrzymujesz dzięki swojej płatnej subskrypcji. Dziękujemy za wsparcie: możesz <a href=\"{{ manage_subscription_url }}\">zarządzać swoją subskrypcją</a> lub <a href=\"{{ email_url }}\">zobaczyć ten e-mail online</a>.",
         "pt-BR": "Esta é uma edição premium de {{ newsletter.name }} que você recebeu através de sua assinatura paga. Obrigado pelo apoio: você pode <a href=\"{{ manage_subscription_url }}\">gerenciar sua assinatura</a> ou <a href=\"{{ email_url }}\">ver este e-mail online</a>.",
         "ru": "Это премиум-выпуск {{ newsletter.name }}, который вы получили по платной подписке. Спасибо за поддержку: вы можете <a href=\"{{ manage_subscription_url }}\">управлять подпиской</a> или <a href=\"{{ email_url }}\">открыть это письмо онлайн</a>.",
-        "tr": "Bu, {{ newsletter.name }} ücretli aboneliğiniz aracılığıyla aldığınız bir premium sayıdır. Desteğiniz için teşekkürler: <a href=\"{{ manage_subscription_url }}\">aboneliğinizi yönetebilir</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>."
+        "tr": "Bu, {{ newsletter.name }} ücretli aboneliğiniz aracılığıyla aldığınız bir premium sayıdır. Desteğiniz için teşekkürler: <a href=\"{{ manage_subscription_url }}\">aboneliğinizi yönetebilir</a> veya <a href=\"{{ email_url }}\">bu e-postayı çevrimiçi görüntüleyebilirsiniz</a>.",
+        "sv-SE": "Detta är ett premiumnummer av {{ newsletter.name }}, som du har fått via din betalda prenumeration. Tack för att du stödjer bra texter – om du vill kan du <a href=\"{{ manage_subscription_url }}\">hantera din prenumeration</a> eller <a href=\"{{ email_url }}\">läsa detta mejl online</a>."
     },
     "email.modern.gifted_premium_trial": {
         "cs-CZ": "Toto je premiové vydání. Přišlo ti v rámci zkušební doby předplatného. Chceš další? <a href=\"{{ premium_subscribe_url }}\">Předplať si premium</a>.",
@@ -204,7 +220,8 @@
         "pl-PL": "To jest wydanie premium, które dotarło do Ciebie podczas bezpłatnego okresu próbnego subskrypcji płatnej. Chcesz więcej? <a href=\"{{ premium_subscribe_url }}\">Zapisz się na subskrypcję premium</a>.",
         "pt-BR": "Esta é uma edição premium que você recebeu durante seu teste gratuito de uma assinatura paga. Quer mais? <a href=\"{{ premium_subscribe_url }}\">Assine uma assinatura premium</a>.",
         "ru": "Это премиум-выпуск, который вы получили в рамках бесплатного пробного периода платной подписки. Хотите больше? <a href=\"{{ premium_subscribe_url }}\">Оформите премиум-подписку</a>.",
-        "tr": "Bu, ücretli bir abonelik için ücretsiz denemeniz sırasında aldığınız bir premium sayıdır. Daha fazlasını mı istiyorsunuz? <a href=\"{{ premium_subscribe_url }}\">Premium abonelik için kaydolun</a>."
+        "tr": "Bu, ücretli bir abonelik için ücretsiz denemeniz sırasında aldığınız bir premium sayıdır. Daha fazlasını mı istiyorsunuz? <a href=\"{{ premium_subscribe_url }}\">Premium abonelik için kaydolun</a>.",
+        "sv-SE": "Detta är ett premiuminnehåll som du har fått under din kostnadsfria provperiod av en betald prenumeration. Vill du ha mer? <a href=\"{{ premium_subscribe_url }}\">Registrera dig för en premiumprenumeration</a>."
     },
     "email.modern.powered_by": {
         "cs-CZ": "Tento e-mail ti přinesl Buttondown.",
@@ -216,7 +233,8 @@
         "pl-PL": "Napędzane przez Buttondown",
         "pt-BR": "Enviado usando Buttondown",
         "ru": "Работает на Buttondown",
-        "tr": "Buttondown tarafından desteklenmektedir"
+        "tr": "Buttondown tarafından desteklenmektedir",
+        "sv-SE": "Drivs av Buttondown"
     },
     "email.modern.preamble": {
         "cs-CZ": "Přeposlal ti tohle někdo? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Přihlas se k odebíraní newsletteru</a>.",
@@ -228,7 +246,8 @@
         "pl-PL": "Ktoś przesłał Ci to dalej? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Zasubskrybuj ten newsletter</a>.",
         "pt-BR": "Alguém lhe encaminhou isto? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Assine este boletim</a>.",
         "ru": "Вам переслали это письмо? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Подпишитесь на эту рассылку</a>.",
-        "tr": "Birisi bunu size mi iletti? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Bu bültene abone olun</a>."
+        "tr": "Birisi bunu size mi iletti? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Bu bültene abone olun</a>.",
+        "sv-SE": "Har någon vidarebefordrat detta till dig? <a href=\"{{ subscribe_url }}\" target=\"_blank\">Prenumerera på detta nyhetsbrev</a>."
     },
     "email.modern.related_emails_title": {
         "cs-CZ": "Další čtení:",
@@ -240,7 +259,8 @@
         "pl-PL": "Czytaj dalej:",
         "pt-BR": "Leia mais:",
         "ru": "Читайте также:",
-        "tr": "Daha fazla oku:"
+        "tr": "Daha fazla oku:",
+        "sv-SE": "Läs mer:"
     },
     "email.modern.unsubscribe": {
         "cs-CZ": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Zrušit odebírání</a> tohoto newsletteru.",
@@ -252,7 +272,8 @@
         "pl-PL": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Wypisz się</a> z tego newslettera.",
         "pt-BR": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Cancelar inscrição</a> neste boletim.",
         "ru": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Отписаться</a> от этой рассылки.",
-        "tr": "Bu bülten aboneliğinden <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">çık</a>."
+        "tr": "Bu bülten aboneliğinden <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">çık</a>.",
+        "sv-SE": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Avsluta prenumerationen</a> på detta nyhetsbrev."
     },
     "email.modern.unsubscribe_autonomy": {
         "cs-CZ": "Svoje odebírání můžeš <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">zrušit</a>, nebo si ho <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">nastavit</a>.",
@@ -264,7 +285,8 @@
         "pl-PL": "Możesz <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">wypisać się</a> lub <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">zarządzać swoją subskrypcją</a>.",
         "pt-BR": "Você pode <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">cancelar a inscrição</a> ou <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">gerenciar sua assinatura</a>.",
         "ru": "Вы можете <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">отписаться</a> или <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">управлять подпиской</a>.",
-        "tr": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Aboneliğinizi iptal edebilir</a> veya <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">aboneliğinizi yönetebilirsiniz</a>."
+        "tr": "<a href=\"{{ unsubscribe_url }}\" target=\"_blank\">Aboneliğinizi iptal edebilir</a> veya <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">aboneliğinizi yönetebilirsiniz</a>.",
+        "sv-SE": "Du kan <a href=\"{{ unsubscribe_url }}\" target=\"_blank\">avsluta prenumerationen</a> eller <a href=\"{{ manage_subscription_url }}\" target=\"_blank\">hantera din prenumeration</a>."
     },
     "email.modern.upsell": {
         "cs-CZ": "Chceš podpořit tento newsletter? <a href=\"{{ premium_subscribe_url }}\">Předplať si premium</a>.",
@@ -276,7 +298,8 @@
         "pl-PL": "Chcesz wesprzeć ten newsletter? <a href=\"{{ premium_subscribe_url }}\">Zapisz się na subskrypcję premium</a>.",
         "pt-BR": "Interessado em apoiar este boletim? <a href=\"{{ premium_subscribe_url }}\">Assine uma assinatura premium</a>.",
         "ru": "Хотите поддержать эту рассылку? <a href=\"{{ premium_subscribe_url }}\">Оформите премиум-подписку</a>.",
-        "tr": "Bu bülteni desteklemekle ilgileniyor musunuz? <a href=\"{{ premium_subscribe_url }}\">Premium abonelik için kaydolun</a>."
+        "tr": "Bu bülteni desteklemekle ilgileniyor musunuz? <a href=\"{{ premium_subscribe_url }}\">Premium abonelik için kaydolun</a>.",
+        "sv-SE": "Vill du stödja detta nyhetsbrev? <a href=\"{{ premium_subscribe_url }}\">Registrera dig för en premiumprenumeration</a>."
     },
     "email.premium.action.upsell": {
         "cs-CZ": "Předplať si premium",
@@ -288,7 +311,8 @@
         "pl-PL": "Zaprenumeruj wersję premium",
         "pt-BR": "Assine um plano premium",
         "ru": "Оформить премиум-подписку",
-        "tr": "Bir ücretsiz premium aboneliğe kayıt olun"
+        "tr": "Bir ücretsiz premium aboneliğe kayıt olun",
+        "sv-SE": "Anmäl dig för en premium-prenumeration"
     },
     "email.premium.cta.read_full_issue": {
         "cs-CZ": "Chceš si přečíst celé vydání?",
@@ -300,7 +324,8 @@
         "pl-PL": "Chcesz przeczytać pełne wydanie?",
         "pt-BR": "Quer ler a edição completa?",
         "ru": "Хотите прочитать весь выпуск?",
-        "tr": "Tam sayısını okumak ister misiniz?"
+        "tr": "Tam sayısını okumak ister misiniz?",
+        "sv-SE": "Vill du läsa hela brevet?"
     },
     "email.premium.message.can_upgrade": {
         "cs-CZ": "Kdykoliv si také můžeš <a href=\"{{ url }}\">předplatit premium</a>.",
@@ -312,7 +337,8 @@
         "pl-PL": "Możesz także w dowolnej chwili wykupić <a href=\"{{ url }}\">płatną subskrypcję</a>.",
         "pt-BR": "Você também pode <a href=\"{{ url }}\">fazer upgrade para premium</a> a qualquer momento.",
         "ru": "Вы также можете <a href=\"{{ url }}\">перейти на премиум</a> в любой момент.",
-        "tr": "Ayrıca istediğiniz zaman <a href=\"{{ url }}\">premium'a yükseltebilirsiniz</a>."
+        "tr": "Ayrıca istediğiniz zaman <a href=\"{{ url }}\">premium'a yükseltebilirsiniz</a>.",
+        "sv-SE": "Du kan också <a href=\"{{ url }}\">uppgradera till premium</a> när som helst."
     },
     "email.premium.message.gifted_issue": {
         "cs-CZ": "Toto je premiové vydání {{ newsletter.name }}. Prišlo ti, protože ti autor podaroval předplatné.",
@@ -324,7 +350,8 @@
         "pl-PL": "To jest wydanie premium {{ newsletter.name }}. Otrzymujesz je w ramach darmowego prezentu.",
         "pt-BR": "Esta é uma edição premium de {{ newsletter.name }}, que você recebeu porque o autor lhe deu uma assinatura premium gratuita.",
         "ru": "Это премиум-выпуск {{ newsletter.name }}, который вы получили, потому что автор подарил вам бесплатную премиум-подписку.",
-        "tr": "Bu, yazarın size ücretsiz bir premium abonelik verdiği için aldığınız {{ newsletter.name }} adresinden bir premium sayıdır."
+        "tr": "Bu, yazarın size ücretsiz bir premium abonelik verdiği için aldığınız {{ newsletter.name }} adresinden bir premium sayıdır.",
+        "sv-SE": "Detta är ett premium-nummer av {{ newsletter.name }}. Du har fått det eftersom författaren har gett dig en gratis premium-prenumeration."
     },
     "email.premium.message.interested_in_reading_full": {
         "cs-CZ": "Chceš si přečíst celý e-mail od {{ newsletter.name }}?",
@@ -336,7 +363,8 @@
         "pl-PL": "Czy Chcesz przeczytać całe wydanie {{ newsletter.name }}?",
         "pt-BR": "Interessado em ler a email completa de {{ newsletter.name }}?",
         "ru": "Хотите прочитать полное письмо от {{ newsletter.name }}?",
-        "tr": "{{ newsletter.name }} adresinden tam e-postayı okumak ister misiniz?"
+        "tr": "{{ newsletter.name }} adresinden tam e-postayı okumak ister misiniz?",
+        "sv-SE": "Intresserad av att läsa hela e-postbrevet från {{ newsletter.name }}?"
     },
     "email.premium.message.trial_issue": {
         "cs-CZ": "Toto je premiové vydání {{ newsletter.name }}. Přišlo ti v rámci zkušební doby předplatného.",
@@ -348,7 +376,8 @@
         "pl-PL": "To jest wydanie premium {{ newsletter.name }}. Otrzymujesz je w ramach dostępu testowego do płatnej subskrypcji.",
         "pt-BR": "Esta é uma edição premium de {{ newsletter.name }}, que você recebeu durante seu período de teste gratuito de uma assinatura paga.",
         "ru": "Это премиум-выпуск {{ newsletter.name }}, который вы получили в рамках бесплатного пробного периода платной подписки.",
-        "tr": "Bu, ücretli aboneliğinizin ücretsiz deneme süresi boyunca aldığınız {{ newsletter.name }} adresinden bir premium sayıdır."
+        "tr": "Bu, ücretli aboneliğinizin ücretsiz deneme süresi boyunca aldığınız {{ newsletter.name }} adresinden bir premium sayıdır.",
+        "sv-SE": "Detta är ett premium-nummer av {{ newsletter.name }}. Du har fått det under din kostnadsfria provperiod av en betald prenumeration."
     },
     "email.premium.message.want_more": {
         "cs-CZ": "Chceš víc?",
@@ -360,7 +389,8 @@
         "pl-PL": "Chcesz więcej?",
         "pt-BR": "Quer mais?",
         "ru": "Хотите больше?",
-        "tr": "Daha fazlasını mı istiyorsunuz?"
+        "tr": "Daha fazlasını mı istiyorsunuz?",
+        "sv-SE": "Vill du ha mer?"
     },
     "email.rss.suggestion_link": {
         "cs-CZ": "odebírat přes RSS",
@@ -372,7 +402,8 @@
         "pl-PL": "zasubksrybować RSS",
         "pt-BR": "via RSS",
         "ru": "подписаться через RSS",
-        "tr": "RSS üzerinden abone olabilirsiniz"
+        "tr": "RSS üzerinden abone olabilirsiniz",
+        "sv-SE": "prenumerera via RSS"
     },
     "email.rss.suggestion_prefix": {
         "cs-CZ": "Pokud chceš, můžeš i",
@@ -384,7 +415,8 @@
         "pl-PL": "Jeśli wolisz, możesz także",
         "pt-BR": "Caso prefira, você também pode se inscrever",
         "ru": "Если вам удобнее, вы также можете",
-        "tr": "Tercih ederseniz,"
+        "tr": "Tercih ederseniz,",
+        "sv-SE": "Om du föredrar kan du också"
     },
     "email.subscription.action.click_to_confirm": {
         "cs-CZ": "[Klikni sem pro potvrzení]({{ confirmation_url }}), že chceš odebírat [{{ newsletter.name }}]({{ newsletter_link }})!",
@@ -396,7 +428,8 @@
         "pl-PL": "[Potwierdż swój zapis]({{ confirmation_url }}) na [{{ newsletter.name }}]({{ newsletter_link }})!",
         "pt-BR": "[Clique aqui para confirmar]({{ confirmation_url }}) sua inscrição em [{{ newsletter.name }}]({{ newsletter_link }})!",
         "ru": "[Нажмите здесь, чтобы подтвердить]({{ confirmation_url }}) подписку на [{{ newsletter.name }}]({{ newsletter_link }})!",
-        "tr": "[{{ newsletter.name }}]({{ newsletter_link }}) bültenine aboneliğinizi [onaylamak için buraya tıklayın]({{ confirmation_url }})!"
+        "tr": "[{{ newsletter.name }}]({{ newsletter_link }}) bültenine aboneliğinizi [onaylamak için buraya tıklayın]({{ confirmation_url }})!",
+        "sv-SE": "[Klicka här för att bekräfta]({{ confirmation_url }}) din prenumeration på [{{ newsletter.name }}]({{ newsletter_link }})!"
     },
     "email.subscription.message.credit_card_charged_shortly": {
         "cs-CZ": "Za chvíli bys měl vidět strženou platbu na své kartě (nebo jinde, pokud platíš jiným způsobem). Ještě jednou dík za předplacení!",
@@ -408,7 +441,8 @@
         "pl-PL": "Sprawdź swoją kartę kredytową (albo inną wykorzystaną metodę płatności) by uzyskać potwierdzenie opłaty. Dzięki za opłacenie dostępu!",
         "pt-BR": "Você deverá ver a cobrança em seu cartão de crédito (ou método de pagamento escolhido) em breve. Obrigado novamente por se inscrever!",
         "ru": "В ближайшее время с вашей банковской карты (или выбранного способа оплаты) будет списана сумма. Спасибо за подписку!",
-        "tr": "Kredi kartınızdan (veya seçtiğiniz ödeme yönteminden) kısa süre içinde tahsilat yapılacaktır. Abone olduğunuz için tekrar teşekkür ederiz!"
+        "tr": "Kredi kartınızdan (veya seçtiğiniz ödeme yönteminden) kısa süre içinde tahsilat yapılacaktır. Abone olduğunuz için tekrar teşekkür ederiz!",
+        "sv-SE": "Du bör se ditt betalkort (eller vald betalningsmetod) debiteras snart. Tack igen för att du prenumererar!"
     },
     "email.subscription.message.free_trial_expired": {
         "cs-CZ": "Ahoj! Jen ti dávám vědět, že ti skončila zkušební doba předplatného u *{{ newsletter.name }}*. Stále ti ale budou chodit moje běžné e-maily.",
@@ -420,7 +454,8 @@
         "pl-PL": "Hejka! Twój testowy okres płatnego dostępu do *{{ newsletter.name }}* właśnie się skończył. Będziesz wciąż otrzymywać darmowe wydania.",
         "pt-BR": "Olá! Só para avisar que seu período de teste gratuito das assinaturas pagas em *{{ newsletter.name }}* expirou. Você continuará recebendo os e-mails regulares que eu publico.",
         "ru": "Здравствуйте! Сообщаем, что ваш бесплатный пробный период платной подписки на *{{ newsletter.name }}* закончился. Вы по-прежнему будете получать обычные письма, которые я публикую.",
-        "tr": "Merhaba! *{{ newsletter.name }}* adresindeki ücretli aboneliklerin ücretsiz deneme sürenizin sona erdiğini bildirmek istedim. Yayınladığım normal e-postaları almaya devam edeceksiniz."
+        "tr": "Merhaba! *{{ newsletter.name }}* adresindeki ücretli aboneliklerin ücretsiz deneme sürenizin sona erdiğini bildirmek istedim. Yayınladığım normal e-postaları almaya devam edeceksiniz.",
+        "sv-SE": "Hej! Vill bara låta dig veta att din kostnadsfria provperiod av betalda nummer av *{{ newsletter.name }}* har gått ut. Du kommer fortfarande att få vanliga e-postutskick som jag publicerar."
     },
     "email.subscription.message.gift_subscription_ended": {
         "cs-CZ": "Ahoj!\n\nTvé dárkové předplatné na **{{ newsletter_name }}** skončilo.\n\nOdteď budeš z tohoto newsletteru dostávat už jen nepremiové e-maily (stále zdarma).\n\nOdebíráš dál, ale můžeš to kdykoli běžnými způsoby zrušit.",
@@ -432,7 +467,8 @@
         "pl-PL": "Cześć!\n\n Opcja dostępu do **{{ newsletter_name }}** w ramach prezentu właśnie wygasła.\n\nOd teraz otrzymywać będziesz darmowe wydania tego newslettera.\n\nJesteś wciąż na liście osób subksrybujących go, ale w dowolnym momencie możesz się wypisać.",
         "pt-BR": "Olá!\n\nSua assinatura de presente para **{{ newsletter_name }}** terminou.\n\nAgora você receberá apenas e-mails não premium desta newsletter (ainda gratuitos).\n\nVocê ainda está inscrito na newsletter, mas sempre pode cancelar a inscrição na newsletter pelos canais normais.",
         "ru": "Здравствуйте!\n\nВаша подарочная подписка на **{{ newsletter_name }}** завершилась.\n\nТеперь вы будете получать только непремиум-письма этой рассылки (по-прежнему бесплатно).\n\nВы всё ещё подписаны на рассылку, но в любой момент можете отписаться стандартным способом.",
-        "tr": "Merhaba!\n\n**{{ newsletter_name }}** için hediye aboneliğiniz sona erdi.\n\nArtık bu bültenden yalnızca premium olmayan e-postalar alacaksınız (hala ücretsiz).\n\nBültene hala abonesiniz, ancak her zaman normal kanallar aracılığıyla bültenden çıkabilirsiniz."
+        "tr": "Merhaba!\n\n**{{ newsletter_name }}** için hediye aboneliğiniz sona erdi.\n\nArtık bu bültenden yalnızca premium olmayan e-postalar alacaksınız (hala ücretsiz).\n\nBültene hala abonesiniz, ancak her zaman normal kanallar aracılığıyla bültenden çıkabilirsiniz.",
+        "sv-SE": "Hej!\n\nDin presentprenumeration på **{{ newsletter_name }}** har tagit slut.\n\nDu kommer nu bara att få icke-premiumutskick från detta nyhetsbrev (fortfarande gratis).\n\nDu är fortfarande prenumerant på nyhetsbrevet, men du kan alltid avsluta via vanliga kanaler."
     },
     "email.subscription.message.gift_subscription_ended_subject": {
         "cs-CZ": "Vaše dárkové předplatné {} skončilo",
@@ -445,7 +481,8 @@
         "pt-BR": "Sua assinatura de presente para {} terminou",
         "ru": "Ваша подарочная подписка на {} завершилась",
         "tr": "Hediye abonamanınız {} için süresi doldu",
-        "it": "La tua abbonamento regalo a {} è terminato"
+        "it": "La tua abbonamento regalo a {} è terminato",
+        "sv-SE": "Din presentprenumeration på {} har avslutats"
     },
     "email.subscription.message.gifted_subscription": {
         "cs-CZ": "Dostali jste předplatné {}!",
@@ -458,7 +495,8 @@
         "pt-BR": "Você recebeu um abonnement para {}!",
         "ru": "Вам подарили подписку на {}!",
         "tr": "{} için bir abonmanız verildi!",
-        "it": "Hai ricevuto un abbonamento a {}!"
+        "it": "Hai ricevuto un abbonamento a {}!",
+        "sv-SE": "Du har fått en prenumeration på {} i present!"
     },
     "email.subscription.message.if_you_didnt_subscribe": {
         "cs-CZ": "Nevíš, proč ti přišel tenhle e-mail? Nechceš newsletter odebírat? V tom případě tuto zprávu smaž. Pokud na odkaz nahoře neklikneš, přihlášení se nedokončí.",
@@ -470,7 +508,8 @@
         "pl-PL": "Jeżeli nie wiesz, dlaczego otrzymujesz ten e-mail, usuń go. Nie zapiszesz się na newsletter jeżeli nie klikniesz w powyższy link.",
         "pt-BR": "Se você não se inscreveu nesta lista ou não tem certeza do motivo pelo qual recebeu este e-mail, você pode excluí-lo. Você não será inscrito se não clicar no link acima.",
         "ru": "Если вы не подписывались на эту рассылку или не уверены, почему получили это письмо, вы можете просто удалить его. Подписка не будет оформлена, если вы не нажмёте на ссылку выше.",
-        "tr": "Bu listeye abone olmadıysanız veya bu e-postayı neden aldığınızdan emin değilseniz, silebilirsiniz. Yukarıdaki bağlantıya tıklamazsanız abone olmayacaksınız."
+        "tr": "Bu listeye abone olmadıysanız veya bu e-postayı neden aldığınızdan emin değilseniz, silebilirsiniz. Yukarıdaki bağlantıya tıklamazsanız abone olmayacaksınız.",
+        "sv-SE": "Om du inte prenumererade på denna lista eller är osäker på varför du fick detta e-postmeddelande kan du ta bort det. Du kommer inte att prenumerera om du inte klickar på länken ovan."
     },
     "email.subscription.message.interested_in_receiving_all": {
         "cs-CZ": "Chceš dostávat všechny e-maily od {{ newsletter.name }}?",
@@ -482,7 +521,8 @@
         "pl-PL": "Czy Chcesz otrzymywać wszystkie wydania {{ newsletter.name }}?",
         "pt-BR": "Interessado em receber todos os emails de {{ newsletter.name }}?",
         "ru": "Хотите получать все письма от {{ newsletter.name }}?",
-        "tr": "{{ newsletter.name }} adresinden tüm e-postaları almak ister misiniz?"
+        "tr": "{{ newsletter.name }} adresinden tüm e-postaları almak ister misiniz?",
+        "sv-SE": "Intresserad av att få alla e-postutskick från {{ newsletter.name }}?"
     },
     "email.subscription.message.newsletter_name_is": {
         "cs-CZ": "<em>{{ newsletter.name }}</em> je:",
@@ -494,7 +534,8 @@
         "pl-PL": "<em>{{ newsletter.name }}</em> to:",
         "pt-BR": "<em>{{ newsletter.name }}</em> é:",
         "ru": "<em>{{ newsletter.name }}</em> — это:",
-        "tr": "<em>{{ newsletter.name }}</em> şudur:"
+        "tr": "<em>{{ newsletter.name }}</em> şudur:",
+        "sv-SE": "<em>{{ newsletter.name }}</em> är:"
     },
     "email.subscription.message.thank_you_for_gift": {
         "cs-CZ": "Děkujeme za darování předplatného {}!",
@@ -507,7 +548,8 @@
         "pt-BR": "Obrigado pela sua assinatura de presente para {}!",
         "ru": "Спасибо за подарочную подписку на {}!",
         "tr": "{} için hediye aboneliğiniz için teşekkür ederiz!",
-        "it": "Grazie per il tuo abbonamento regalo a {}!"
+        "it": "Grazie per il tuo abbonamento regalo a {}!",
+        "sv-SE": "Tack för din presentprenumeration på {}!"
     },
     "email.subscription.message.thanks_for_purchasing_premium": {
         "cs-CZ": "Díky za zakoupení premium předplatného u **{{ newsletter.name }}**!",
@@ -519,7 +561,8 @@
         "pl-PL": "Dzięki za wykupienie płatnego dostępu do **{{ newsletter.name }}**!",
         "pt-BR": "Obrigado por adquirir uma assinatura premium para **{{ newsletter.name }}**!",
         "ru": "Спасибо за покупку премиум-подписки на **{{ newsletter.name }}**!",
-        "tr": "**{{ newsletter.name }}** için premium abonelik satın aldığınız için teşekkür ederiz!"
+        "tr": "**{{ newsletter.name }}** için premium abonelik satın aldığınız için teşekkür ederiz!",
+        "sv-SE": "Tack för att du köpte en premium-prenumeration på **{{ newsletter.name }}**!"
     },
     "email.subscription.message.thrilled_to_count_as_member": {
         "cs-CZ": "Mám radost, že tě mohu přivítat mezi členy. Můžeš si projít kompletní [premium archiv]({{ premium_archive_url }}) mého newsletteru. Taky si můžeš kdykoliv [změnit své předplatné a způsob placení]({{ manage_subscription_url}}).",
@@ -531,7 +574,8 @@
         "pl-PL": "Bardzo się cieszę, że tu Jesteś. Mam dla Ciebie [pełne archiwum]({{ premium_archive_url }}). Jeśli zechcesz kiedykolwiek zmienić opcje płatności albo inne ustawienia, zrób to w [ustawieniach konta]({{ manage_subscription_url }}). ",
         "pt-BR": "Estou muito feliz em tê-lo como membro. Se estiver interessado, você pode navegar pelos arquivos premium completos da minha newsletter [aqui]({{ premium_archive_url }}). Se precisar alterar sua assinatura ou método de pagamento, você pode fazer isso [aqui]({{ manage_subscription_url }}).",
         "ru": "Я рад считать вас участником. Если интересно, вы можете посмотреть полный архив премиум-выпусков моей рассылки [здесь]({{ premium_archive_url }}). Если вам понадобится изменить подписку или способ оплаты, это можно сделать [здесь]({{ manage_subscription_url }}).",
-        "tr": "Sizi üyemiz olarak görmekten mutluluk duyuyorum. İlgileniyorsanız, bültenimin tam premium arşivlerine [buradan]({{ premium_archive_url }}) göz atabilirsiniz. Aboneliğinizi veya ödeme yönteminizi değiştirmeniz gerekirse, bunu [buradan]({{ manage_subscription_url }}) yapabilirsiniz."
+        "tr": "Sizi üyemiz olarak görmekten mutluluk duyuyorum. İlgileniyorsanız, bültenimin tam premium arşivlerine [buradan]({{ premium_archive_url }}) göz atabilirsiniz. Aboneliğinizi veya ödeme yönteminizi değiştirmeniz gerekirse, bunu [buradan]({{ manage_subscription_url }}) yapabilirsiniz.",
+        "sv-SE": "Jag är glad över att du är medlem. Om du är intresserad kan du bläddra i de fullständiga premium-arkiven av mitt nyhetsbrev [här]({{ premium_archive_url }}). Behöver du ändra din prenumeration eller betalningsmetod kan du göra det [här]({{ manage_subscription_url }})."
     },
     "email.subscription.message.unexpected_notice": {
         "cs-CZ": "(Nečekaný e-mail? Možná jde o omyl. Pro odhlášení klikni [sem]({{ unsubscribe_url }}).)",
@@ -543,7 +587,8 @@
         "pl-PL": "(Niespodziewany e-mail? Przypadkowy zapis? Możesz się [wypisać]({{ unsubscribe_url }}) w dowolnym momencie.",
         "pt-BR": "(Não esperava este e-mail ou não pretendia se inscrever? Clique [aqui]({{ unsubscribe_url }}) para cancelar a inscrição.)",
         "ru": "(Не ожидали это письмо или подписались случайно? Нажмите [здесь]({{ unsubscribe_url }}), чтобы отписаться.)",
-        "tr": "(Bu e-postayı beklemiyor muydunuz veya abone olmak istemediniz mi? Abonelikten çıkmak için [buraya]({{ unsubscribe_url }}) tıklayın.)"
+        "tr": "(Bu e-postayı beklemiyor muydunuz veya abone olmak istemediniz mi? Abonelikten çıkmak için [buraya]({{ unsubscribe_url }}) tıklayın.)",
+        "sv-SE": "(Väntade du dig inte detta e-postmeddelande eller menade du inte att prenumerera? Klicka [här]({{ unsubscribe_url }}) för att avsluta din prenumeration.)"
     },
     "email.subscription.message.you_are_in": {
         "cs-CZ": "Přihlášeno!",
@@ -555,7 +600,8 @@
         "pl-PL": "Jesteś zapisany!",
         "pt-BR": "Você está dentro!",
         "ru": "Готово!",
-        "tr": "Katıldınız!"
+        "tr": "Katıldınız!",
+        "sv-SE": "Du är med!"
     },
     "email.subscription.message.you_are_in_welcome": {
         "cs-CZ": "Přihlášeno! Vítej v",
@@ -567,7 +613,8 @@
         "pl-PL": "Jesteś zapisany! Witamy w",
         "pt-BR": "Você está dentro! Bem-vindo(a) ao",
         "ru": "Готово! Добро пожаловать в",
-        "tr": "Katıldınız! Hoş geldiniz:"
+        "tr": "Katıldınız! Hoş geldiniz:",
+        "sv-SE": "Du är med! Välkommen till"
     },
     "email.subscription.title.confirm_subscription": {
         "cs-CZ": "Potvrď svůj odběr",
@@ -579,7 +626,8 @@
         "pl-PL": "Potwierdź subskrypcję",
         "pt-BR": "Confirme sua assinatura",
         "ru": "Подтвердите подписку",
-        "tr": "Aboneliğinizi onaylayın"
+        "tr": "Aboneliğinizi onaylayın",
+        "sv-SE": "Bekräfta din prenumeration"
     },
     "email.subscription.title.confirm_subscription_reminder": {
         "cs-CZ": "Připomínka potvrzení",
@@ -591,7 +639,8 @@
         "pl-PL": "Przypomnienie o potwierdzeniu",
         "pt-BR": "Lembrete de confirmação",
         "ru": "Напоминание о подтверждении",
-        "tr": "Onay hatırlatıcısı"
+        "tr": "Onay hatırlatıcısı",
+        "sv-SE": "Påminnelse om att bekräfta din prenumeration"
     },
     "evening": {
         "cs-CZ": "večer",
@@ -603,7 +652,8 @@
         "pl-PL": "wieczór",
         "pt-BR": "noite",
         "ru": "вечер",
-        "tr": "akşam"
+        "tr": "akşam",
+        "sv-SE": "kväll"
     },
     "midnight": {
         "cs-CZ": "půlnoc",
@@ -615,7 +665,8 @@
         "pl-PL": "północ",
         "pt-BR": "meia-noite",
         "ru": "полночь",
-        "tr": "gece yarısı"
+        "tr": "gece yarısı",
+        "sv-SE": "midnatt"
     },
     "morning": {
         "cs-CZ": "ráno",
@@ -627,7 +678,8 @@
         "pl-PL": "rano",
         "pt-BR": "manhã",
         "ru": "утро",
-        "tr": "sabah"
+        "tr": "sabah",
+        "sv-SE": "morgon"
     },
     "noon": {
         "cs-CZ": "poledne",
@@ -639,7 +691,8 @@
         "pl-PL": "południe",
         "pt-BR": "meio-dia",
         "ru": "полдень",
-        "tr": "öğle"
+        "tr": "öğle",
+        "sv-SE": "mitt på dagen"
     },
     "web.action.contact_author": {
         "cs-CZ": "Kontaktovat autora",
@@ -651,7 +704,8 @@
         "pl-PL": "Skontaktuj się z osobą autorską",
         "pt-BR": "Contactar o autor",
         "ru": "Связаться с автором",
-        "tr": "Yazarla İletişime Geç"
+        "tr": "Yazarla İletişime Geç",
+        "sv-SE": "Kontakta författare"
     },
     "web.action.take_me_to": {
         "cs-CZ": "Vezmi mě na",
@@ -663,7 +717,8 @@
         "pl-PL": "Zabierz mnie do",
         "pt-BR": "Leve-me para",
         "ru": "Перейти к",
-        "tr": "Beni şuraya götür"
+        "tr": "Beni şuraya götür",
+        "sv-SE": "Ta mig till"
     },
     "web.button.cancel": {
         "cs-CZ": "Zrušit",
@@ -675,7 +730,8 @@
         "pl-PL": "Anuluj",
         "pt-BR": "Cancelar",
         "ru": "Отмена",
-        "tr": "İptal"
+        "tr": "İptal",
+        "sv-SE": "Avbryt"
     },
     "web.button.comment": {
         "cs-CZ": "Napiš komentář",
@@ -687,7 +743,8 @@
         "pl-PL": "Komentować",
         "pt-BR": "Comentar",
         "ru": "Комментировать",
-        "tr": "Yorum Yap"
+        "tr": "Yorum Yap",
+        "sv-SE": "Kommentera"
     },
     "web.button.comment_and_subscribe": {
         "cs-CZ": "Napiš komentář a odebírej",
@@ -699,7 +756,8 @@
         "pl-PL": "Skomentuj i zasubskrybuj",
         "pt-BR": "Comentar e inscrever-se",
         "ru": "Комментировать и подписаться",
-        "tr": "Yorum yap ve abone ol"
+        "tr": "Yorum yap ve abone ol",
+        "sv-SE": "Kommentera och prenumerera"
     },
     "web.button.delete": {
         "cs-CZ": "Smazat",
@@ -711,7 +769,8 @@
         "pl-PL": "Usuń",
         "pt-BR": "Excluir",
         "ru": "Удалить",
-        "tr": "Sil"
+        "tr": "Sil",
+        "sv-SE": "Ta bort"
     },
     "web.button.log_in": {
         "cs-CZ": "Přihlásit se",
@@ -723,7 +782,8 @@
         "pl-PL": "Zaloguj się",
         "pt-BR": "Entrar",
         "ru": "Войти",
-        "tr": "Giriş Yap"
+        "tr": "Giriş Yap",
+        "sv-SE": "Logga in"
     },
     "web.button.read_more": {
         "cs-CZ": "Číst dál",
@@ -735,7 +795,8 @@
         "pl-PL": "Czytaj dalej",
         "pt-BR": "Leia mais",
         "ru": "Читать далее",
-        "tr": "Daha fazla oku"
+        "tr": "Daha fazla oku",
+        "sv-SE": "Läs mer"
     },
     "web.button.read_rest": {
         "cs-CZ": "Přečíst zbytek",
@@ -747,7 +808,8 @@
         "pl-PL": "Czytaj resztę",
         "pt-BR": "Ler o resto",
         "ru": "Читать дальше",
-        "tr": "Geri kalanı oku"
+        "tr": "Geri kalanı oku",
+        "sv-SE": "Läs resten"
     },
     "web.button.reply": {
         "cs-CZ": "Odpověz",
@@ -759,7 +821,8 @@
         "pl-PL": "Odpowiedz",
         "pt-BR": "Responder",
         "ru": "Ответить",
-        "tr": "Yanıtla"
+        "tr": "Yanıtla",
+        "sv-SE": "Svara"
     },
     "web.button.reply_and_subscribe": {
         "cs-CZ": "Odpověz a odebírej",
@@ -771,7 +834,8 @@
         "pl-PL": "Odpowiedz i zasubskrybuj",
         "pt-BR": "Responder e inscrever-se",
         "ru": "Ответить и подписаться",
-        "tr": "Yanıtla ve Abone ol"
+        "tr": "Yanıtla ve Abone ol",
+        "sv-SE": "Svara och prenumerera"
     },
     "web.button.report": {
         "cs-CZ": "Nahlásit",
@@ -783,7 +847,8 @@
         "pl-PL": "Zgłoś",
         "pt-BR": "Denunciar",
         "ru": "Пожаловаться",
-        "tr": "Bildir"
+        "tr": "Bildir",
+        "sv-SE": "Rapportera"
     },
     "web.button.resubscribe": {
         "cs-CZ": "Přihlásit se znovu",
@@ -795,7 +860,8 @@
         "pl-PL": "Zapisz się ponownie",
         "pt-BR": "Reinscrever-se",
         "ru": "Подписаться снова",
-        "tr": "Yeniden Abone Ol"
+        "tr": "Yeniden Abone Ol",
+        "sv-SE": "Prenumerera igen"
     },
     "web.button.save": {
         "cs-CZ": "Uložit",
@@ -807,7 +873,8 @@
         "pl-PL": "Zapisz",
         "pt-BR": "Salvar",
         "ru": "Сохранить",
-        "tr": "Kaydet"
+        "tr": "Kaydet",
+        "sv-SE": "Spara"
     },
     "web.button.send_comment": {
         "cs-CZ": "Odeslat komentář",
@@ -819,7 +886,8 @@
         "pl-PL": "Wyślij komentarz",
         "pt-BR": "Enviar comentário",
         "ru": "Отправить комментарий",
-        "tr": "Yorum gönder"
+        "tr": "Yorum gönder",
+        "sv-SE": "Skicka kommentar"
     },
     "web.button.submit": {
         "cs-CZ": "Odeslat",
@@ -831,7 +899,8 @@
         "pl-PL": "Zapisz",
         "pt-BR": "Enviar",
         "ru": "Отправить",
-        "tr": "Gönder"
+        "tr": "Gönder",
+        "sv-SE": "Skicka"
     },
     "web.button.subscribe": {
         "cs-CZ": "Odebírej",
@@ -843,7 +912,8 @@
         "pl-PL": "Zapisz się",
         "pt-BR": "Inscrever-se",
         "ru": "Подписаться",
-        "tr": "Abone ol"
+        "tr": "Abone ol",
+        "sv-SE": "Prenumerera"
     },
     "web.button.subscribe_to_comment": {
         "cs-CZ": "Odebírej komentáře",
@@ -855,7 +925,8 @@
         "pl-PL": "Zasubskrybuj komentarze",
         "pt-BR": "Inscrever-se para comentários",
         "ru": "Подписаться на комментарий",
-        "tr": "Yorumlara abone ol"
+        "tr": "Yorumlara abone ol",
+        "sv-SE": "Prenumerera för att kommentera"
     },
     "web.button.unsubscribe": {
         "cs-CZ": "Zrušit odebírání",
@@ -867,7 +938,8 @@
         "pl-PL": "Wypisz się",
         "pt-BR": "Cancelar inscrição",
         "ru": "Отписаться",
-        "tr": "Abonelikten çık"
+        "tr": "Abonelikten çık",
+        "sv-SE": "Avsluta prenumeration"
     },
     "web.button.update": {
         "cs-CZ": "Aktualizovat",
@@ -879,7 +951,8 @@
         "pl-PL": "Aktualizuj",
         "pt-BR": "Atualizar",
         "ru": "Обновить",
-        "tr": "Güncelle"
+        "tr": "Güncelle",
+        "sv-SE": "Uppdatera"
     },
     "web.button.upgrade": {
         "cs-CZ": "Upgradovat",
@@ -891,7 +964,8 @@
         "pl-PL": "Aktualizuj",
         "pt-BR": "Atualizar",
         "ru": "Обновить тариф",
-        "tr": "Yükselt"
+        "tr": "Yükselt",
+        "sv-SE": "Uppgradera"
     },
     "web.button.upgrade_subscription": {
         "cs-CZ": "Upgradovat předplatné",
@@ -903,7 +977,8 @@
         "pl-PL": "Aktualizuj subskrypcję",
         "pt-BR": "Atualizar assinatura",
         "ru": "Обновить подписку",
-        "tr": "Aboneliği yükselt"
+        "tr": "Aboneliği yükselt",
+        "sv-SE": "Uppgradera prenumeration"
     },
     "web.button.upgrade_to_comment": {
         "cs-CZ": "Pro komentování je potřeba mít předplatné",
@@ -915,7 +990,8 @@
         "pl-PL": "Aby skomentować, musisz wykupić subksrypcję",
         "pt-BR": "Atualize para comentar",
         "ru": "Обновить тариф для комментариев",
-        "tr": "Yorum yapmak için yükseltin"
+        "tr": "Yorum yapmak için yükseltin",
+        "sv-SE": "Uppgradera för att kommentera"
     },
     "web.button.upgrade_to_read_rest": {
         "cs-CZ": "Upgradovat pro přečtení zbytku",
@@ -927,7 +1003,8 @@
         "pl-PL": "Aktualizuj, aby przeczytać resztę",
         "pt-BR": "Atualizar para ler o resto",
         "ru": "Обновить тариф, чтобы читать дальше",
-        "tr": "Geri kalanı okumak için yükselt"
+        "tr": "Geri kalanı okumak için yükselt",
+        "sv-SE": "Uppgradera för att läsa resten"
     },
     "web.button.view_archives": {
         "cs-CZ": "Zobrazit archivy",
@@ -939,7 +1016,8 @@
         "pl-PL": "Zobacz archiwa",
         "pt-BR": "Ver arquivos",
         "ru": "Посмотреть архив",
-        "tr": "Arşivleri görüntüle"
+        "tr": "Arşivleri görüntüle",
+        "sv-SE": "Visa arkiv"
     },
     "web.cadence.annual": {
         "cs-CZ": "Ročně",
@@ -951,7 +1029,8 @@
         "pl-PL": "Roczny",
         "pt-BR": "Anual",
         "ru": "Годовая",
-        "tr": "Yıllık"
+        "tr": "Yıllık",
+        "sv-SE": "Årlig"
     },
     "web.cadence.monthly": {
         "cs-CZ": "Měsíčně",
@@ -963,7 +1042,8 @@
         "pl-PL": "Miesięczny",
         "pt-BR": "Mensal",
         "ru": "Ежемесячная",
-        "tr": "Aylık"
+        "tr": "Aylık",
+        "sv-SE": "Månatlig"
     },
     "web.cadence.one_time": {
         "cs-CZ": "Jednorázově",
@@ -975,7 +1055,8 @@
         "pl-PL": "Jednorazowy",
         "pt-BR": "Único",
         "ru": "Разовая",
-        "tr": "Tek seferlik"
+        "tr": "Tek seferlik",
+        "sv-SE": "Engångsbetalning"
     },
     "web.comment.error.account_invalid": {
         "cs-CZ": "Účet není platný.",
@@ -987,7 +1068,8 @@
         "pl-PL": "Konto nie jest prawidłowe.",
         "pt-BR": "A conta não é válida.",
         "ru": "Аккаунт недействителен.",
-        "tr": "Hesap geçerli değil."
+        "tr": "Hesap geçerli değil.",
+        "sv-SE": "Kontot är inte giltigt."
     },
     "web.comment.error.cant_create_subscriber": {
         "cs-CZ": "Nelze vytvořit odběratele.",
@@ -999,7 +1081,8 @@
         "pl-PL": "Nie można utworzyć subskrybenta.",
         "pt-BR": "Não é possível criar assinante.",
         "ru": "Не удалось создать подписчика",
-        "tr": "Abone oluşturulamıyor."
+        "tr": "Abone oluşturulamıyor.",
+        "sv-SE": "Kan inte skapa prenumerant"
     },
     "web.comment.error.comment_already_exists": {
         "cs-CZ": "Tento komentář již existuje.",
@@ -1011,7 +1094,8 @@
         "pl-PL": "Ten komentarz już istnieje.",
         "pt-BR": "Este comentário já existe.",
         "ru": "Этот комментарий уже существует.",
-        "tr": "Bu yorum zaten mevcut."
+        "tr": "Bu yorum zaten mevcut.",
+        "sv-SE": "Den här kommentaren finns redan."
     },
     "web.comment.error.commenter_invalid": {
         "cs-CZ": "Komentátor není platný.",
@@ -1023,7 +1107,8 @@
         "pl-PL": "Komentator nie jest prawidłowy.",
         "pt-BR": "Comentador não é válido.",
         "ru": "Автор комментария недействителен.",
-        "tr": "Yorumcu geçerli değil."
+        "tr": "Yorumcu geçerli değil.",
+        "sv-SE": "Kommentatorn är inte giltig."
     },
     "web.comment.error.commenting_disabled": {
         "cs-CZ": "Komentování je zakázáno.",
@@ -1035,7 +1120,8 @@
         "pl-PL": "Komentowanie jest wyłączone.",
         "pt-BR": "Comentários estão desabilitados.",
         "ru": "Комментирование отключено.",
-        "tr": "Yorum yapma devre dışı."
+        "tr": "Yorum yapma devre dışı.",
+        "sv-SE": "Kommentarer är inaktiverade."
     },
     "web.comment.error.email_invalid": {
         "cs-CZ": "E-mailová adresa není platná.",
@@ -1047,7 +1133,8 @@
         "pl-PL": "Adres e-mail nie jest prawidłowy.",
         "pt-BR": "O endereço de e-mail não é válido.",
         "ru": "Некорректный адрес электронной почты.",
-        "tr": "E-posta adresi geçerli değil."
+        "tr": "E-posta adresi geçerli değil.",
+        "sv-SE": "E-postadressen är inte giltig."
     },
     "web.comment.error.no_permission": {
         "cs-CZ": "Nemáte oprávnění komentovat jako newsletter.",
@@ -1059,7 +1146,8 @@
         "pl-PL": "Nie masz uprawnień do komentowania jako newsletter.",
         "pt-BR": "Você não tem permissão para comentar como o boletim informativo.",
         "ru": "У вас нет прав комментировать от имени рассылки.",
-        "tr": "Bülten olarak yorum yapma izniniz yok."
+        "tr": "Bülten olarak yorum yapma izniniz yok.",
+        "sv-SE": "Du har inte behörighet att kommentera som nyhetsbrevet"
     },
     "web.comment.error.subscriber_already_exists": {
         "cs-CZ": "Tento e-mail je již přihlášen.",
@@ -1071,7 +1159,8 @@
         "pl-PL": "Ten adres e-mail jest już zapisany.",
         "pt-BR": "Este endereço de e-mail já está inscrito.",
         "ru": "Этот адрес электронной почты уже подписан.",
-        "tr": "Bu e-posta adresi zaten abone."
+        "tr": "Bu e-posta adresi zaten abone.",
+        "sv-SE": "Den här e-postadressen är redan prenumererad."
     },
     "web.comment.error.subscriber_blocked": {
         "cs-CZ": "Nelze se přihlásit v tuto chvíli.",
@@ -1083,7 +1172,8 @@
         "pl-PL": "Nie można zapisać w tym momencie.",
         "pt-BR": "Não é possível inscrever no momento.",
         "ru": "В данный момент подписка недоступна.",
-        "tr": "Şu anda abone olunamıyor."
+        "tr": "Şu anda abone olunamıyor.",
+        "sv-SE": "Det går inte att prenumerera just nu."
     },
     "web.comment.error.subscriber_invalid": {
         "cs-CZ": "Odběratel není platný.",
@@ -1095,7 +1185,8 @@
         "pl-PL": "Subskrybent nie jest prawidłowy.",
         "pt-BR": "Assinante não é válido.",
         "ru": "Подписчик недействителен.",
-        "tr": "Abone geçerli değil."
+        "tr": "Abone geçerli değil.",
+        "sv-SE": "Prenumeranten är inte giltig."
     },
     "web.comment.error.subscriber_not_paid": {
         "cs-CZ": "Odběratel není zaplacen.",
@@ -1107,7 +1198,8 @@
         "pl-PL": "Subskrybent nie zapłacił.",
         "pt-BR": "Assinante não pagou.",
         "ru": "Подписка не оплачена.",
-        "tr": "Abone ödemedi."
+        "tr": "Abone ödemedi.",
+        "sv-SE": "Prenumeranten har inte betalat."
     },
     "web.comment.error.subscriber_suppressed": {
         "cs-CZ": "Tento e-mail nemůže být přihlášen.",
@@ -1119,7 +1211,8 @@
         "pl-PL": "Ten adres e-mail nie może być zapisany.",
         "pt-BR": "Este endereço de e-mail não pode ser inscrito.",
         "ru": "Этот адрес электронной почты нельзя использовать для подписки.",
-        "tr": "Bu e-posta adresi abone olamaz."
+        "tr": "Bu e-posta adresi abone olamaz.",
+        "sv-SE": "Den här e-postadressen kan inte prenumerera."
     },
     "web.comment.error.text_empty": {
         "cs-CZ": "Text komentáře nemůže být prázdný.",
@@ -1131,7 +1224,8 @@
         "pl-PL": "Tekst komentarza nie może być pusty.",
         "pt-BR": "O texto do comentário não pode estar vazio.",
         "ru": "Текст комментария не может быть пустым.",
-        "tr": "Yorum metni boş olamaz."
+        "tr": "Yorum metni boş olamaz.",
+        "sv-SE": "Kommentaren får inte vara tom."
     },
     "web.comment.error.text_invalid": {
         "cs-CZ": "Text komentáře není platný.",
@@ -1143,7 +1237,8 @@
         "pl-PL": "Tekst komentarza nie jest prawidłowy.",
         "pt-BR": "O texto do comentário não é válido.",
         "ru": "Текст комментария некорректен.",
-        "tr": "Yorum metni geçerli değil."
+        "tr": "Yorum metni geçerli değil.",
+        "sv-SE": "Kommentartexten är inte giltig."
     },
     "web.comment.form.add_comment": {
         "cs-CZ": "Přidat komentář",
@@ -1155,7 +1250,8 @@
         "pl-PL": "Dodaj komentarz",
         "pt-BR": "Adicionar um comentário",
         "ru": "Добавить комментарий",
-        "tr": "Yorum ekle"
+        "tr": "Yorum ekle",
+        "sv-SE": "Lägg till en kommentar"
     },
     "web.comment.message.delete_warning": {
         "cs-CZ": "Smazání tohoto komentáře jej odstraní z e-mailu a také smaže všechny odpovědi na něj.",
@@ -1167,7 +1263,8 @@
         "pl-PL": "Usunięcie tego komentarza usunie go z e-maila i usunie również wszystkie odpowiedzi na niego.",
         "pt-BR": "Excluir este comentário o removerá do e-mail e também excluirá todas as respostas a ele.",
         "ru": "Удаление этого комментария уберёт его из письма и также удалит все ответы на него.",
-        "tr": "Bu yorumu silmek onu e-postadan kaldıracak ve ona verilen tüm yanıtları da silecek."
+        "tr": "Bu yorumu silmek onu e-postadan kaldıracak ve ona verilen tüm yanıtları da silecek.",
+        "sv-SE": "Om du tar bort denna kommentar tas den bort från mejlet och alla svar på den raderas också."
     },
     "web.comment.message.error": {
         "cs-CZ": "Kvůli chybě se nepovedlo přidat tvůj komentář",
@@ -1179,7 +1276,8 @@
         "pl-PL": "Niestety, wystąpił błąd w publikacji Twojego komentarza",
         "pt-BR": "Ocorreu um erro ao tentar publicar seu comentário",
         "ru": "При отправке комментария произошла ошибка.",
-        "tr": "Yorumunuzu gönderirken bir hata oluştu"
+        "tr": "Yorumunuzu gönderirken bir hata oluştu",
+        "sv-SE": "Ett fel uppstod när din kommentar skulle publiceras"
     },
     "web.comment.message.join_discussion": {
         "cs-CZ": "Připojit se k diskuzi:",
@@ -1191,7 +1289,8 @@
         "pl-PL": "Dołącz do dyskusji:",
         "pt-BR": "Participe da discussão:",
         "ru": "Присоединиться к обсуждению:",
-        "tr": "Tartışmaya katılın:"
+        "tr": "Tartışmaya katılın:",
+        "sv-SE": "Delta i diskussionen:"
     },
     "web.email.attachment.download": {
         "cs-CZ": "Stáhnout",
@@ -1203,7 +1302,8 @@
         "pl-PL": "Pobierz",
         "pt-BR": "Baixar",
         "ru": "Скачать",
-        "tr": "İndir"
+        "tr": "İndir",
+        "sv-SE": "Ladda ner"
     },
     "web.email.deleted.callout": {
         "cs-CZ": "Tento e-mail je smazaný. Můžeš si jej přečíst pouze pokud se přihlásíš jako jeho autor.",
@@ -1215,7 +1315,8 @@
         "pl-PL": "Ten e-mail został usunięty, ale nadal możesz go przeczytać, jeśli jesteś zalogowany(-a) jako autor.",
         "pt-BR": "Este e-mail foi excluído, mas você ainda pode lê-lo se estiver conectado como autor.",
         "ru": "Это письмо было удалено, но вы всё ещё можете прочитать его, войдя как автор.",
-        "tr": "Bu e-posta silindi, ancak yazar olarak oturum açtığınızda yine de okuyabilirsiniz."
+        "tr": "Bu e-posta silindi, ancak yazar olarak oturum açtığınızda yine de okuyabilirsiniz.",
+        "sv-SE": "Detta mejl har raderats, men du kan fortfarande läsa det när du är inloggad som författare."
     },
     "web.email.hidden.contact": {
         "cs-CZ": "Nevíš, proč se ti tohle zobrazuje? <a href=\"mailto:support@buttondown.com\">Napiš na podporu!</a>",
@@ -1227,7 +1328,8 @@
         "pl-PL": "Nie wiesz, dlaczego to widzisz? <a href=\"mailto:support@buttondown.com\">Napisz do pomocy technicznej!</a>",
         "pt-BR": "Não tem certeza do porquê está vendo isso? <a href=\"mailto:support@buttondown.com\">Suporte por e-mail!</a>",
         "ru": "Не уверены, почему вы это видите? <a href=\"mailto:support@buttondown.com\">Напишите в поддержку!</a>",
-        "tr": "Bunu neden gördüğünüzden emin değil misiniz? <a href=\"mailto:support@buttondown.com\">E-posta desteği!</a>"
+        "tr": "Bunu neden gördüğünüzden emin değil misiniz? <a href=\"mailto:support@buttondown.com\">E-posta desteği!</a>",
+        "sv-SE": "Osäker på varför du ser detta? <a href=\"mailto:support@buttondown.com\">Kontakta support!</a>"
     },
     "web.email.hidden.message": {
         "cs-CZ": "Tento e-mail je skrytý kvůli stížnosti nebo sporu ohledně jeho obsahu.",
@@ -1239,7 +1341,8 @@
         "pl-PL": "Ta wiadomość e-mail została ukryta z powodu skargi lub sporu dotyczącego jej treści.",
         "pt-BR": "Este e-mail foi ocultado devido a uma reclamação ou disputa sobre seu conteúdo.",
         "ru": "Это письмо было скрыто из-за жалобы или спора по поводу его содержания.",
-        "tr": "Bu e-posta, içeriğiyle ilgili bir şikayet veya anlaşmazlık nedeniyle gizlenmiştir.\""
+        "tr": "Bu e-posta, içeriğiyle ilgili bir şikayet veya anlaşmazlık nedeniyle gizlenmiştir.\"",
+        "sv-SE": "Detta mejl har dolts på grund av ett klagomål eller en tvist om dess innehåll."
     },
     "web.email.hidden.title": {
         "cs-CZ": "Obsah není dostupný",
@@ -1251,7 +1354,8 @@
         "pl-PL": "Zawartość niedostępna",
         "pt-BR": "Conteúdo indisponível",
         "ru": "Контент недоступен",
-        "tr": "İçerik mevcut değil"
+        "tr": "İçerik mevcut değil",
+        "sv-SE": "Innehållet är inte tillgängligt"
     },
     "web.email.issue_summary.archives_link": {
         "cs-CZ": "Taky můžeš procházet <a href=\"{{ archive_url }}\">plný archiv</a> tohoto newsletteru.",
@@ -1263,7 +1367,8 @@
         "pl-PL": "Możesz również przejrzeć <a href=\"{{ archive_url }}\">pełne archiwum</a> tego newslettera.",
         "pt-BR": "Você também pode navegar pelo <a href=\"{{ archive_url }}\">arquivo completo</a> deste boletim.",
         "ru": "Вы также можете посмотреть <a href=\"{{ archive_url }}\">полный архив</a> этой рассылки.",
-        "tr": "Ayrıca göz atabilirsiniz <a href=\"{{ archive_url }}\">tam arşiv</a> bu bültenin."
+        "tr": "Ayrıca göz atabilirsiniz <a href=\"{{ archive_url }}\">tam arşiv</a> bu bültenin.",
+        "sv-SE": "Du kan också bläddra i <a href=\"{{ archive_url }}\">hela arkivet</a> för detta nyhetsbrev."
     },
     "web.email.issue_summary.draft": {
         "cs-CZ": "Právě čteš pracovní verzi vydání {{ newsletter.name }}.",
@@ -1275,7 +1380,8 @@
         "pl-PL": "To było robocze wydanie newslettera {{ newsletter.name }}.",
         "pt-BR": "Você acabou de ler um rascunho de {{ newsletter.name }}.",
         "ru": "Вы только что прочитали черновой выпуск {{ newsletter.name }}.",
-        "tr": "Az önce bir taslak sayısını okudunuz {{ newsletter.name }}."
+        "tr": "Az önce bir taslak sayısını okudunuz {{ newsletter.name }}.",
+        "sv-SE": "Du har precis läst ett utkast till {{ newsletter.name }}."
     },
     "web.email.issue_summary.no_issue_number": {
         "cs-CZ": "Právě čteš vydání {{ newsletter.name }}.",
@@ -1287,7 +1393,8 @@
         "pl-PL": "To było robocze wydanie {{ newsletter.name }}.",
         "pt-BR": "Você acabou de ler uma edição de {{ newsletter.name }}.",
         "ru": "Вы только что прочитали выпуск {{ newsletter.name }}.",
-        "tr": "Az önce bir sayıyı okudunuz{{ newsletter.name }}."
+        "tr": "Az önce bir sayıyı okudunuz{{ newsletter.name }}.",
+        "sv-SE": "Du har precis läst ett nummer av {{ newsletter.name }}."
     },
     "web.email.issue_summary.with_issue_number": {
         "cs-CZ": "Právě čteš {{ email.secondary_id }}. vydání {{ newsletter.name }}.",
@@ -1299,7 +1406,8 @@
         "pl-PL": "To było #{{ email.secondary_id }} wydanie newslettera {{ newsletter.name }}.",
         "pt-BR": "Você acabou de ler a edição #{{ email.secondary_id }} de {{ newsletter.name }}.",
         "ru": "Вы только что прочитали выпуск №{{ email.secondary_id }} рассылки {{ newsletter.name }}.",
-        "tr": "Az önce sayı #{{ email.secondary_id }} okudunuz {{ newsletter.name }}."
+        "tr": "Az önce sayı #{{ email.secondary_id }} okudunuz {{ newsletter.name }}.",
+        "sv-SE": "Du har precis läst nummer #{{ email.secondary_id }} av {{ newsletter.name }}."
     },
     "web.email.share.header": {
         "cs-CZ": "Sdílej toto email:",
@@ -1311,7 +1419,8 @@
         "pl-PL": "Podziel się tym e-mailem:",
         "pt-BR": "Compartilhar este e-mail",
         "ru": "Поделитесь этим письмом:",
-        "tr": "Bu e-postayı paylaş:"
+        "tr": "Bu e-postayı paylaş:",
+        "sv-SE": "Dela detta mejl:"
     },
     "web.email.social.links_header": {
         "cs-CZ": "Pokračuj v konverzaci:",
@@ -1323,7 +1432,8 @@
         "pl-PL": "Kontynuuj rozmowę:",
         "pt-BR": "Continue a conversa:",
         "ru": "Продолжить обсуждение:",
-        "tr": "Sohbete devam edin:"
+        "tr": "Sohbete devam edin:",
+        "sv-SE": "Fortsätt samtalet:"
     },
     "web.email.subscription.form_text": {
         "cs-CZ": "Nezmeškej další vydání! Odebírej {{ newsletter.name }}:",
@@ -1335,7 +1445,8 @@
         "pl-PL": "Nie przegap kolejnych wiadomości. Zasubskrybuj {{ newsletter.name }}:",
         "pt-BR": "Não perca o que vem a seguir. Inscreva-se em {{ newsletter.name }}:",
         "ru": "Не пропустите следующие выпуски. Подпишитесь на {{ newsletter.name }}:",
-        "tr": "Sıradaki gelişmeleri kaçırmayın. Abone olun {{ newsletter.name }}:"
+        "tr": "Sıradaki gelişmeleri kaçırmayın. Abone olun {{ newsletter.name }}:",
+        "sv-SE": "Missa inte vad som kommer härnäst. Prenumerera på {{ newsletter.name }}:"
     },
     "web.form.label.any_comment": {
         "cs-CZ": "Jakýkoli komentář",
@@ -1347,7 +1458,8 @@
         "pl-PL": "Komentarz",
         "pt-BR": "Algum comentário",
         "ru": "Комментарий (необязательно)",
-        "tr": "Herhangi bir yorum"
+        "tr": "Herhangi bir yorum",
+        "sv-SE": "Kommentar"
     },
     "web.form.label.email": {
         "cs-CZ": "E-mail",
@@ -1359,7 +1471,8 @@
         "pl-PL": "E-mail",
         "pt-BR": "E-mail",
         "ru": "Email",
-        "tr": "E-posta"
+        "tr": "E-posta",
+        "sv-SE": "E-post"
     },
     "web.form.label.gift": {
         "cs-CZ": "Toto je dárek",
@@ -1371,7 +1484,8 @@
         "pl-PL": "To jest prezent",
         "pt-BR": "Este é um presente",
         "ru": "Это подарок",
-        "tr": "Bu bir hediye"
+        "tr": "Bu bir hediye",
+        "sv-SE": "Detta är en gåva"
     },
     "web.form.label.gift_message": {
         "cs-CZ": "Zpráva pro dárka",
@@ -1383,7 +1497,8 @@
         "pl-PL": "Wiadomość dla prezentu",
         "pt-BR": "Mensagem para o presente",
         "ru": "Сообщение для подарка",
-        "tr": "Hediye için mesaj"
+        "tr": "Hediye için mesaj",
+        "sv-SE": "Meddelande till gåvan"
     },
     "web.form.label.choose_your_amount": {
         "cs-CZ": "Zvolte svou částku",
@@ -1395,7 +1510,8 @@
         "pl-PL": "Wybierz swoją kwotę",
         "pt-BR": "Escolha o valor",
         "ru": "Выберите сумму",
-        "tr": "Tutarınızı seçin"
+        "tr": "Tutarınızı seçin",
+        "sv-SE": "Välj belopp"
     },
     "web.form.label.reason": {
         "cs-CZ": "Důvod",
@@ -1407,7 +1523,8 @@
         "pl-PL": "Powód",
         "pt-BR": "Motivo",
         "ru": "Причина",
-        "tr": "Sebep"
+        "tr": "Sebep",
+        "sv-SE": "Orsak"
     },
     "web.form.label.referral_code": {
         "cs-CZ": "Kód odkazu",
@@ -1419,7 +1536,8 @@
         "pl-PL": "Kod polecający",
         "pt-BR": "Código de indicação",
         "ru": "Реферальный код",
-        "tr": "Yönlendirme kodu"
+        "tr": "Yönlendirme kodu",
+        "sv-SE": "Referenskod"
     },
     "web.form.option.none_of_above": {
         "cs-CZ": "Žádné z výše uvedených",
@@ -1431,7 +1549,8 @@
         "pl-PL": "Żadne z powyższych",
         "pt-BR": "Nenhuma das opções acima",
         "ru": "Ничего из перечисленного",
-        "tr": "Yukarıdakilerin hiçbiri"
+        "tr": "Yukarıdakilerin hiçbiri",
+        "sv-SE": "Inget av ovanstående"
     },
     "web.form.option.select": {
         "cs-CZ": "Vyber si možnost",
@@ -1443,7 +1562,8 @@
         "pl-PL": "Wybierz opcję",
         "pt-BR": "Selecione uma opção",
         "ru": "Выберите вариант",
-        "tr": "Bir seçenek seçin"
+        "tr": "Bir seçenek seçin",
+        "sv-SE": "Välj ett alternativ"
     },
     "web.form.placeholder.add_a_personal_message": {
         "cs-CZ": "Přidejte osobní zprávu...",
@@ -1455,7 +1575,8 @@
         "pl-PL": "Dodaj osobną wiadomość...",
         "pt-BR": "Adicione uma mensagem pessoal...",
         "ru": "Добавьте личное сообщение",
-        "tr": "Kişisel mesaj ekle..."
+        "tr": "Kişisel mesaj ekle...",
+        "sv-SE": "Lägg till ett personligt meddelande..."
     },
     "web.form.placeholder.email_address": {
         "cs-CZ": "Tvá e-mailová adresa",
@@ -1467,7 +1588,8 @@
         "pl-PL": "Twój adres e-mail",
         "pt-BR": "Seu endereço de e-mail",
         "ru": "Ваш email",
-        "tr": "E-posta adresiniz"
+        "tr": "E-posta adresiniz",
+        "sv-SE": "Din e-postadress"
     },
     "web.form.placeholder.recipient_email": {
         "en": "Who's the recipient of the gift?",
@@ -1479,7 +1601,8 @@
         "tr": "Hediye kimine veriliyor?",
         "cs-CZ": "Komu dáváš dárek?",
         "ru": "Кому дарите подарок?",
-        "de": "An wen gibt man das Geschenk?"
+        "de": "An wen gibt man das Geschenk?",
+        "sv-SE": "Vem är mottagaren av gåvan?"
     },
     "web.form.placeholder.email_with_example": {
         "cs-CZ": "Tvá e-mailová adresa (ty@priklad.cz)",
@@ -1491,7 +1614,8 @@
         "pl-PL": "Twój adres e-mail (ty@przyklad.pl)",
         "pt-BR": "Seu e-mail (voce@exemplo.com)",
         "ru": "Ваш email (you@example.com)",
-        "tr": "E-posta adresiniz (siz@ornek.com)"
+        "tr": "E-posta adresiniz (siz@ornek.com)",
+        "sv-SE": "Din e-post (du@exempel.se)"
     },
     "web.form.placeholder.referral_code": {
         "cs-CZ": "Zadejte 6místný kód",
@@ -1503,7 +1627,8 @@
         "pl-PL": "Wprowadź 6-literowy kod",
         "pt-BR": "Digite código de 6 letras",
         "ru": "Введите 6-буквенный код",
-        "tr": "6 harfli kod girin"
+        "tr": "6 harfli kod girin",
+        "sv-SE": "Ange 6-bokstavskod"
     },
     "web.form.placeholder.search": {
         "cs-CZ": "Hledej...",
@@ -1515,7 +1640,8 @@
         "pl-PL": "Szukaj...",
         "pt-BR": "Buscar...",
         "ru": "Поиск...",
-        "tr": "Ara..."
+        "tr": "Ara...",
+        "sv-SE": "Sök..."
     },
     "web.form.placeholder.what_do_you_think": {
         "cs-CZ": "Co si myslíš?",
@@ -1527,7 +1653,8 @@
         "pl-PL": "Co o tym myślisz?",
         "pt-BR": "O que você acha?",
         "ru": "Что вы думаете?",
-        "tr": "Ne düşünüyorsunuz?"
+        "tr": "Ne düşünüyorsunuz?",
+        "sv-SE": "Vad tycker du?"
     },
     "web.form.placeholder.write_thoughts": {
         "cs-CZ": "Napište své myšlenky zde...",
@@ -1539,7 +1666,8 @@
         "pl-PL": "Napisz swoje myśli tutaj...",
         "pt-BR": "Escreva seus pensamentos aqui...",
         "ru": "Напишите свои мысли здесь...",
-        "tr": "Düşüncelerinizi buraya yazın..."
+        "tr": "Düşüncelerinizi buraya yazın...",
+        "sv-SE": "Skriv dina tankar här..."
     },
     "web.form.placeholder.your_name": {
         "cs-CZ": "Tvé jméno",
@@ -1551,7 +1679,8 @@
         "pl-PL": "Twoje imię",
         "pt-BR": "Seu nome",
         "ru": "Ваше имя",
-        "tr": "Adınız"
+        "tr": "Adınız",
+        "sv-SE": "Ditt namn"
     },
     "web.form.validation.email_didnt_work": {
         "cs-CZ": "Tato e-mailová adresa nefungovala! Zkus prosím jinou.",
@@ -1563,7 +1692,8 @@
         "pl-PL": "Ten adres e-mail nie zadziałał! Spróbuj innego.",
         "pt-BR": "Esse e-mail não funcionou! Por favor, tente outro.",
         "ru": "Этот email не подошёл. Пожалуйста, попробуйте другой.",
-        "tr": "Bu e-posta adresi işe yaramadı! Lütfen başka bir tane deneyin."
+        "tr": "Bu e-posta adresi işe yaramadı! Lütfen başka bir tane deneyin.",
+        "sv-SE": "E-postadressen fungerade inte! Vänligen prova en annan."
     },
     "web.form.validation.email_lowercase": {
         "cs-CZ": "Použij prosím 'email' (vše malá písmena) pro zadání e-mailové adresy, ne 'Email' nebo 'EMAIL'.",
@@ -1575,7 +1705,8 @@
         "pl-PL": "Użyj 'email' (pisane małymi literami) aby podać adres email, a nie 'Email' albo ''EMAIL'.",
         "pt-BR": "Por favor, use 'email' (tudo em minúsculas) para fornecer um endereço de e-mail a este endpoint, em vez de 'Email' ou 'EMAIL'.",
         "ru": "Пожалуйста, используйте параметр 'email' (в нижнем регистре), а не 'Email' или 'EMAIL'.",
-        "tr": "Bu uç noktaya e-posta adresi sağlamak için 'Email' veya 'EMAIL' yerine 'email' (tümü küçük harf) kullanın."
+        "tr": "Bu uç noktaya e-posta adresi sağlamak için 'Email' veya 'EMAIL' yerine 'email' (tümü küçük harf) kullanın.",
+        "sv-SE": "Använd 'email' (endast gemener) för att ange en e-postadress till denna endpoint, inte 'Email' eller 'EMAIL'."
     },
     "web.form.validation.email_malformed": {
         "cs-CZ": "Tato e-mailová adresa je nesprávně formátovaná! Prosím zkontroluj ji.",
@@ -1587,7 +1718,8 @@
         "pl-PL": "Ten adres e-mail jest nieprawidłowo sformatowany! Proszę sprawdź go ponownie.",
         "pt-BR": "Esse e-mail está mal formatado! Por favor, verifique novamente.",
         "ru": "Некорректный формат email. Пожалуйста, проверьте адрес.",
-        "tr": "Bu e-posta adresi hatalı biçimlendirilmiş! Lütfen tekrar kontrol edin."
+        "tr": "Bu e-posta adresi hatalı biçimlendirilmiş! Lütfen tekrar kontrol edin.",
+        "sv-SE": "E-postadressen är felaktig! Vänligen kontrollera den igen."
     },
     "web.form.validation.email_required": {
         "cs-CZ": "Prosím zadej e-mailovou adresu.",
@@ -1599,7 +1731,8 @@
         "pl-PL": "Podaj adres e-mail.",
         "pt-BR": "Por favor, inclua um endereço de e-mail.",
         "ru": "Пожалуйста, укажите адрес электронной почты.",
-        "tr": "Lütfen bir e-posta adresi ekleyin."
+        "tr": "Lütfen bir e-posta adresi ekleyin.",
+        "sv-SE": "Vänligen ange en e-postadress."
     },
     "web.form.validation.email_retry": {
         "cs-CZ": "Vrať se prosím a zkus to znovu s platnou e-mailovou adresou.",
@@ -1611,7 +1744,8 @@
         "pl-PL": "Wróć i spróbuj ponownie z poprawnym adresem e-mail.",
         "pt-BR": "Por favor, volte e tente novamente com um endereço de e-mail válido.",
         "ru": "Вернитесь назад и попробуйте снова с корректным адресом электронной почты.",
-        "tr": "Lütfen geri dönün ve geçerli bir e-posta adresi ile tekrar deneyin."
+        "tr": "Lütfen geri dönün ve geçerli bir e-posta adresi ile tekrar deneyin.",
+        "sv-SE": "Vänligen gå tillbaka och försök med en giltig e-postadress."
     },
     "web.form.validation.tag_too_long": {
         "cs-CZ": "Štítek je příliš dlouhý",
@@ -1623,7 +1757,8 @@
         "pl-PL": "Tag za długi",
         "pt-BR": "Tag muito longo",
         "ru": "Слишком длинный тег",
-        "tr": "Etiket çok uzun"
+        "tr": "Etiket çok uzun",
+        "sv-SE": "Taggen är för lång"
     },
     "web.message.empty.author_no_emails": {
         "cs-CZ": "Autor tohoto newsletteru zatím nezveřejnil žádné veřejné e-maily! Když to udělá, budou zde.",
@@ -1635,7 +1770,8 @@
         "pl-PL": "Autor tego newslettera nie opublikował jeszcze żadnych publicznych e-maili! Kiedy to zrobią, będą tutaj.",
         "pt-BR": "O autor deste boletim ainda não publicou nenhum e-mail público! Quando o fizerem, estarão aqui.",
         "ru": "Автор этой рассылки пока не публиковал публичных писем. Когда они появятся, вы увидите их здесь.",
-        "tr": "Bu bültenin yazarı henüz hiçbir halka açık e-posta yayınlamadı! Yayınladıklarında burada olacaklar."
+        "tr": "Bu bültenin yazarı henüz hiçbir halka açık e-posta yayınlamadı! Yayınladıklarında burada olacaklar.",
+        "sv-SE": "Författaren till detta nyhetsbrev har inte publicerat några offentliga e-postmeddelanden än! När hen gör det kommer de att visas här."
     },
     "web.message.empty.no_emails_published": {
         "cs-CZ": "Tento autor zatím žádné e-maily neposlal.",
@@ -1647,7 +1783,8 @@
         "pl-PL": "Ta osoba nie opublikowała jeszcze żadnych newsletterów.",
         "pt-BR": "Este autor ainda não publicou nenhum e-mail.",
         "ru": "Этот автор пока не публиковал письма.",
-        "tr": "Bu yazar henüz hiçbir e-posta yayınlamadı."
+        "tr": "Bu yazar henüz hiçbir e-posta yayınlamadı.",
+        "sv-SE": "Denna författare har inte publicerat några nyhetsbrev ännu."
     },
     "web.message.error.check_newsletter_name": {
         "cs-CZ": "Zkontroluj prosím název newsletteru a zkus to znovu.",
@@ -1659,7 +1796,8 @@
         "pl-PL": "Sprawdź nazwę newslettera i spróbuj ponownie",
         "pt-BR": "Por favor, verifique o nome da newsletter e tente novamente.",
         "ru": "Проверьте название рассылки и попробуйте снова.",
-        "tr": "Lütfen bülten adını kontrol edin ve tekrar deneyin."
+        "tr": "Lütfen bülten adını kontrol edin ve tekrar deneyin.",
+        "sv-SE": "Kontrollera nyhetsbrevets namn och försök igen."
     },
     "web.message.error.email_not_found": {
         "cs-CZ": "E-mail nenalezen",
@@ -1671,7 +1809,8 @@
         "pl-PL": "E-mail nie znaleziony",
         "pt-BR": "E-mail não encontrado",
         "ru": "Письмо не найдено",
-        "tr": "E-posta bulunamadı"
+        "tr": "E-posta bulunamadı",
+        "sv-SE": "Mejlet hittades inte"
     },
     "web.message.error.email_oops": {
         "cs-CZ": "Ups! Tento e-mail",
@@ -1683,7 +1822,8 @@
         "pl-PL": "Ups! Ten e-mail",
         "pt-BR": "Ops! Este e-mail",
         "ru": "Упс! Это письмо",
-        "tr": "Ups! Bu e-posta"
+        "tr": "Ups! Bu e-posta",
+        "sv-SE": "Hoppsan! Detta mejl"
     },
     "web.message.error.generic": {
         "cs-CZ": "Stala se chyba. Zkus to prosím znovu.",
@@ -1695,7 +1835,8 @@
         "pl-PL": "Wystąpił błąd. Spróbuj ponownie.",
         "pt-BR": "Ocorreu um erro. Por favor, tente novamente.",
         "ru": "Произошла ошибка. Пожалуйста, попробуйте снова.",
-        "tr": "Bir hata oluştu. Lütfen tekrar deneyin."
+        "tr": "Bir hata oluştu. Lütfen tekrar deneyin.",
+        "sv-SE": "Ett fel uppstod. Vänligen försök igen."
     },
     "web.message.error.newsletter_not_found": {
         "cs-CZ": "Newsletter s názvem {username} neexistuje",
@@ -1707,7 +1848,8 @@
         "pl-PL": "Nie ma newslettera o nazwie {username}",
         "pt-BR": "Nenhuma newsletter com o nome de {username}",
         "ru": "Рассылка с именем {username} не найдена",
-        "tr": "{username} adında bülten bulunamadı"
+        "tr": "{username} adında bülten bulunamadı",
+        "sv-SE": "Inget nyhetsbrev med namnet {username}"
     },
     "web.message.error.not_found": {
         "cs-CZ": "Nenalezeno",
@@ -1719,7 +1861,8 @@
         "pl-PL": "Nie znalazłem",
         "pt-BR": "Não encontrado",
         "ru": "Не найдено",
-        "tr": "Bulunamadı"
+        "tr": "Bulunamadı",
+        "sv-SE": "Hittades inte"
     },
     "web.message.error.title": {
         "cs-CZ": "Chyba",
@@ -1731,7 +1874,8 @@
         "pl-PL": "Błąd",
         "pt-BR": "Erro",
         "ru": "Ошибка",
-        "tr": "Hata"
+        "tr": "Hata",
+        "sv-SE": "Fel"
     },
     "web.modal.you_ve_successfully_upgraded_to_premium": {
         "cs-CZ": "Úspěšně jste upgradovali na premium! Začněte prozkoumáváním archivů nebo správou předplatného.",
@@ -1743,7 +1887,8 @@
         "pl-PL": "Pomyślnie zaktualizowałeś do premium! Zacznij od przeglądania archiwów lub zarządzania subskrypcją.",
         "pt-BR": "Você atualizou com sucesso para premium! Comece explorando os arquivos ou gerenciando sua assinatura.",
         "ru": "Вы успешно перешли на премиум-подписку! Начните с изучения архива или управления своей подпиской.",
-        "tr": "Premium'a başarıyla yükselttiniz! Arşivleri keşfederek veya aboneliğinizi yöneterek başlayın."
+        "tr": "Premium'a başarıyla yükselttiniz! Arşivleri keşfederek veya aboneliğinizi yöneterek başlayın.",
+        "sv-SE": "Du har nu uppgraderat till premium! Kom igång genom att utforska arkivet eller hantera din prenumeration."
     },
     "web.navigation.archive": {
         "cs-CZ": "Archiv",
@@ -1755,7 +1900,8 @@
         "pl-PL": "Archiwum",
         "pt-BR": "Arquivo",
         "ru": "Архив",
-        "tr": "Arşiv"
+        "tr": "Arşiv",
+        "sv-SE": "Arkiv"
     },
     "web.navigation.archives": {
         "cs-CZ": "Archiv",
@@ -1767,7 +1913,8 @@
         "pl-PL": "Archiwum",
         "pt-BR": "Arquivo",
         "ru": "Архивы",
-        "tr": "Arşiv"
+        "tr": "Arşiv",
+        "sv-SE": "Arkiv"
     },
     "web.navigation.all": {
         "cs-CZ": "vše:",
@@ -1779,7 +1926,8 @@
         "pl-PL": "wszystkie:",
         "pt-BR": "todos:",
         "ru": "все:",
-        "tr": "tümü:"
+        "tr": "tümü:",
+        "sv-SE": "alla:"
     },
     "web.navigation.back_to_email": {
         "cs-CZ": "Zpět do e-mailu",
@@ -1791,7 +1939,8 @@
         "pl-PL": "Wróc do e-maila",
         "pt-BR": "Voltar ao e-mail",
         "ru": "Вернуться к письму",
-        "tr": "E-postaya geri dön"
+        "tr": "E-postaya geri dön",
+        "sv-SE": "Tillbaka till e-postmeddelandet"
     },
     "web.navigation.browse_full_archives": {
         "cs-CZ": "Procházet",
@@ -1803,7 +1952,8 @@
         "pl-PL": "Możesz przeglądać",
         "pt-BR": "Você pode navegar pelo",
         "ru": "Вы можете просмотреть",
-        "tr": "Göz atabilirsiniz"
+        "tr": "Göz atabilirsiniz",
+        "sv-SE": "Du kan bläddra i"
     },
     "web.navigation.for_this_newsletter": {
         "cs-CZ": "pro tento newsletter",
@@ -1815,7 +1965,8 @@
         "pl-PL": "dla tego newslettera",
         "pt-BR": "para este boletim",
         "ru": "для этой рассылки",
-        "tr": "bu bülten için"
+        "tr": "bu bülten için",
+        "sv-SE": "för detta nyhetsbrev"
     },
     "web.navigation.full_archives": {
         "cs-CZ": "kompletní archiv",
@@ -1827,7 +1978,8 @@
         "pl-PL": "pełne archiwum",
         "pt-BR": "arquivo completo",
         "ru": "полный архив",
-        "tr": "tam arşiv"
+        "tr": "tam arşiv",
+        "sv-SE": "fullständiga arkiv"
     },
     "web.navigation.go_back": {
         "cs-CZ": "Zpět",
@@ -1839,7 +1991,8 @@
         "pl-PL": "Wróć",
         "pt-BR": "Voltar",
         "ru": "Назад",
-        "tr": "Geri dön"
+        "tr": "Geri dön",
+        "sv-SE": "Gå tillbaka"
     },
     "web.navigation.latest": {
         "cs-CZ": "nejnovější:",
@@ -1851,7 +2004,8 @@
         "pl-PL": "najnowsze:",
         "pt-BR": "mais recente:",
         "ru": "последний:",
-        "tr": "en son:"
+        "tr": "en son:",
+        "sv-SE": "senaste:"
     },
     "web.navigation.newer_archives": {
         "cs-CZ": "Novější záznamy",
@@ -1863,7 +2017,8 @@
         "pl-PL": "Nowsze archiwa",
         "pt-BR": "Arquivos mais recentes",
         "ru": "Более новые выпуски",
-        "tr": "Daha yeni arşivler"
+        "tr": "Daha yeni arşivler",
+        "sv-SE": "Nyare arkiv"
     },
     "web.navigation.of_this_newsletter": {
         "cs-CZ": "tohoto newsletteru.",
@@ -1875,7 +2030,8 @@
         "pl-PL": "tego newslettera.",
         "pt-BR": "deste boletim.",
         "ru": "этой рассылки",
-        "tr": "bu bültenin."
+        "tr": "bu bültenin.",
+        "sv-SE": "av det här nyhetsbrevet."
     },
     "web.navigation.older_archives": {
         "cs-CZ": "Starší záznamy",
@@ -1887,7 +2043,8 @@
         "pl-PL": "Starsze archiwa",
         "pt-BR": "Arquivos mais antigos",
         "ru": "Более старые выпуски",
-        "tr": "Eski arşivler"
+        "tr": "Eski arşivler",
+        "sv-SE": "Äldre arkiv"
     },
     "web.navigation.rss": {
         "cs-CZ": "RSS",
@@ -1899,7 +2056,8 @@
         "pl-PL": "RSS",
         "pt-BR": "RSS",
         "ru": "RSS",
-        "tr": "RSS"
+        "tr": "RSS",
+        "sv-SE": "RSS"
     },
     "web.navigation.sponsor": {
         "cs-CZ": "Podpoř",
@@ -1911,7 +2069,8 @@
         "pl-PL": "Sponsor",
         "pt-BR": "Patrocinador",
         "ru": "Спонсор",
-        "tr": "Sponsor"
+        "tr": "Sponsor",
+        "sv-SE": "Sponsor"
     },
     "web.navigation.sponsorship_opportunities": {
         "cs-CZ": "možnosti finanční podpory",
@@ -1923,7 +2082,8 @@
         "pl-PL": "możliwości sponsorowania",
         "pt-BR": "oportunidades de patrocínio",
         "ru": "возможности спонсорства",
-        "tr": "sponsorluk fırsatları"
+        "tr": "sponsorluk fırsatları",
+        "sv-SE": "sponsringsmöjligheter"
     },
     "web.navigation.start_reading": {
         "cs-CZ": "Začněte číst",
@@ -1935,7 +2095,8 @@
         "pl-PL": "Zacznij czytać",
         "pt-BR": "Comece a ler",
         "ru": "Начните читать",
-        "tr": "Okumaya başlayın"
+        "tr": "Okumaya başlayın",
+        "sv-SE": "Börja läsa"
     },
     "web.navigation.view_sponsorship_opportunities": {
         "cs-CZ": "Zobrazit",
@@ -1947,7 +2108,8 @@
         "pl-PL": "Zobacz",
         "pt-BR": "Ver",
         "ru": "Посмотреть",
-        "tr": "Görüntüle"
+        "tr": "Görüntüle",
+        "sv-SE": "Visa"
     },
     "web.post.label.free": {
         "cs-CZ": "Příspěvek zadarmo",
@@ -1959,7 +2121,8 @@
         "pl-PL": "Darmowy post",
         "pt-BR": "Postagem gratuita",
         "ru": "Бесплатный пост",
-        "tr": "Ücretsiz gönderi"
+        "tr": "Ücretsiz gönderi",
+        "sv-SE": "Gratis inlägg"
     },
     "web.post.label.premium": {
         "cs-CZ": "Premium příspěvek",
@@ -1971,7 +2134,8 @@
         "pl-PL": "Post premium",
         "pt-BR": "Postagem premium",
         "ru": "Премиум-пост",
-        "tr": "Premium gönderi"
+        "tr": "Premium gönderi",
+        "sv-SE": "Premium-inlägg"
     },
     "web.search.no_results": {
         "cs-CZ": "Nebyly nalezeny žádné výsledky pro „{query}“",
@@ -1983,7 +2147,8 @@
         "pl-PL": "Brak wyników dla „{query}“",
         "pt-BR": "Nenhum resultado encontrado para \"{query}\"",
         "ru": "Результаты по запросу «{query}» не найдены",
-        "tr": "\"{query}\" için sonuç bulunamadı"
+        "tr": "\"{query}\" için sonuç bulunamadı",
+        "sv-SE": "Inga resultat hittades för \"{query}\""
     },
     "web.search.title": {
         "cs-CZ": "Hledat v archivech",
@@ -1995,7 +2160,8 @@
         "pl-PL": "Szukaj w archiwach",
         "pt-BR": "Buscar nos arquivos",
         "ru": "Поиск по архиву",
-        "tr": "Arşivlerde ara"
+        "tr": "Arşivlerde ara",
+        "sv-SE": "Sök"
     },
     "web.social.action.share": {
         "cs-CZ": "Sdílet",
@@ -2007,7 +2173,8 @@
         "pl-PL": "Udostępnij",
         "pt-BR": "Compartilhar",
         "ru": "Поделиться",
-        "tr": "Paylaş"
+        "tr": "Paylaş",
+        "sv-SE": "Dela"
     },
     "web.social.action.share_bluesky": {
         "cs-CZ": "Sdílej na Bluesky",
@@ -2019,7 +2186,8 @@
         "pl-PL": "Podziel się tym na Bluesky",
         "pt-BR": "Bluesky",
         "ru": "Поделиться в Bluesky",
-        "tr": "Bluesky'de Paylaş"
+        "tr": "Bluesky'de Paylaş",
+        "sv-SE": "Dela på Bluesky"
     },
     "web.social.action.share_email": {
         "cs-CZ": "Sdílej e-mailem",
@@ -2031,7 +2199,8 @@
         "pl-PL": "Podziel się tym przez e-mail",
         "pt-BR": "Email",
         "ru": "Поделиться по email",
-        "tr": "E-posta ile Paylaş"
+        "tr": "E-posta ile Paylaş",
+        "sv-SE": "Dela via e-post"
     },
     "web.social.action.share_facebook": {
         "cs-CZ": "Sdílej na Facebook",
@@ -2043,7 +2212,8 @@
         "pl-PL": "Podziel się tym na Facebooku",
         "pt-BR": "Facebook",
         "ru": "Поделиться в Facebook",
-        "tr": "Facebook'ta Paylaş"
+        "tr": "Facebook'ta Paylaş",
+        "sv-SE": "Dela på Facebook"
     },
     "web.social.action.share_hackernews": {
         "cs-CZ": "Sdílej na Hacker News",
@@ -2055,7 +2225,8 @@
         "pl-PL": "Podziel się tym na Hacker News",
         "pt-BR": "Hacker News",
         "ru": "Поделиться в Hacker News",
-        "tr": "Hacker News'de Paylaş"
+        "tr": "Hacker News'de Paylaş",
+        "sv-SE": "Dela på Hacker News"
     },
     "web.social.action.share_linkedin": {
         "cs-CZ": "Sdílej na LinkedIn",
@@ -2067,7 +2238,8 @@
         "pl-PL": "Podziel się tym na LinkedIn",
         "pt-BR": "LinkedIn",
         "ru": "Поделиться в LinkedIn",
-        "tr": "LinkedIn'de Paylaş"
+        "tr": "LinkedIn'de Paylaş",
+        "sv-SE": "Dela på LinkedIn"
     },
     "web.social.action.share_mastodon": {
         "cs-CZ": "Sdílej na Mastodon",
@@ -2079,7 +2251,8 @@
         "pl-PL": "Podziel się tym na Mastodonie",
         "pt-BR": "Mastodon",
         "ru": "Поделиться в Mastodon",
-        "tr": "Mastodon'da Paylaş"
+        "tr": "Mastodon'da Paylaş",
+        "sv-SE": "Dela på Mastodon"
     },
     "web.social.action.share_reddit": {
         "cs-CZ": "Sdílej na Reddit",
@@ -2091,7 +2264,8 @@
         "pl-PL": "Podziel się tym na Reddit",
         "pt-BR": "Reddit",
         "ru": "Поделиться в Reddit",
-        "tr": "Reddit'de Paylaş"
+        "tr": "Reddit'de Paylaş",
+        "sv-SE": "Dela på Reddit"
     },
     "web.social.action.share_threads": {
         "cs-CZ": "Sdílej na Threads",
@@ -2103,7 +2277,8 @@
         "pl-PL": "Podziel się tym na Threads",
         "pt-BR": "Threads",
         "ru": "Поделиться в Threads",
-        "tr": "Threads'de Paylaş"
+        "tr": "Threads'de Paylaş",
+        "sv-SE": "Dela på Threads"
     },
     "web.social.action.share_twitter": {
         "cs-CZ": "Sdílej na Twitteru",
@@ -2115,7 +2290,8 @@
         "pl-PL": "Podziel się tym na Twitterze",
         "pt-BR": "Twitter",
         "ru": "Поделиться в Twitter",
-        "tr": "Twitter'da Paylaş"
+        "tr": "Twitter'da Paylaş",
+        "sv-SE": "Dela på Twitter"
     },
     "web.subscription.action.email_confirmed": {
         "cs-CZ": "Mám potvrzený e-mail!",
@@ -2127,7 +2303,8 @@
         "pl-PL": "Mam potwierdzony e-mail!",
         "pt-BR": "Confirmei meu e-mail!",
         "ru": "Я подтвердил(а) свой email!",
-        "tr": "E-postamı Onayladım!"
+        "tr": "E-postamı Onayladım!",
+        "sv-SE": "Jag har bekräftat min e-post!"
     },
     "web.subscription.action.manage": {
         "cs-CZ": "Nastavit předplatné",
@@ -2139,7 +2316,8 @@
         "pl-PL": "Zarządzaj subskrypcją",
         "pt-BR": "Gerenciar inscrição",
         "ru": "Управлять подпиской",
-        "tr": "Aboneliği Yönet"
+        "tr": "Aboneliği Yönet",
+        "sv-SE": "Hantera prenumeration"
     },
     "web.subscription.action.manage_premium": {
         "cs-CZ": "Spravovat prémiové předplatné",
@@ -2151,7 +2329,8 @@
         "pl-PL": "Zarządzaj subskrypcją premium",
         "pt-BR": "Gerenciar assinatura premium",
         "ru": "Управлять премиум-подпиской",
-        "tr": "Premium aboneliği yönet"
+        "tr": "Premium aboneliği yönet",
+        "sv-SE": "Hantera premiumprenumeration"
     },
     "web.subscription.action.subscribe_free_trial": {
         "cs-CZ": "Přihlas se a začni zkušební verzi zdarma",
@@ -2163,7 +2342,8 @@
         "pl-PL": "Zapisz się i rozpocznij darmowy okres próbny",
         "pt-BR": "Inscreva-se e comece um teste gratuito",
         "ru": "Подписаться и начать бесплатный пробный период",
-        "tr": "Abone Ol ve Ücretsiz Deneme Başlat"
+        "tr": "Abone Ol ve Ücretsiz Deneme Başlat",
+        "sv-SE": "Prenumerera och starta en gratis provperiod"
     },
     "web.subscription.action.subscribe_free_trial_days": {
         "cs-CZ": "Přihlas se a začni {{ newsletter.paid_subscription_free_trial_duration }} dní zdarma",
@@ -2175,7 +2355,8 @@
         "pl-PL": "Zapisz się i rozpocznij darmowy okres próbny przez {{ newsletter.paid_subscription_free_trial_duration }} dni",
         "pt-BR": "Inscreva-se e comece um teste gratuito de {{ newsletter.paid_subscription_free_trial_duration }} dias",
         "ru": "Подписаться и начать бесплатный пробный период на {{ newsletter.paid_subscription_free_trial_duration }} дней",
-        "tr": "{{ newsletter.paid_subscription_free_trial_duration }} günlük ücretsiz deneme süresi için abone ol"
+        "tr": "{{ newsletter.paid_subscription_free_trial_duration }} günlük ücretsiz deneme süresi için abone ol",
+        "sv-SE": "Prenumerera och starta en gratis provperiod på {{ newsletter.paid_subscription_free_trial_duration }} dagar"
     },
     "web.subscription.action.verify_and_subscribe": {
         "cs-CZ": "Ověřit a přihlásit se",
@@ -2187,7 +2368,8 @@
         "pl-PL": "Zweryfikuj i zapisz się",
         "pt-BR": "Verifique e inscreva-se",
         "ru": "Подтвердить и подписаться",
-        "tr": "Doğrula ve abone ol"
+        "tr": "Doğrula ve abone ol",
+        "sv-SE": "Verifiera och prenumerera"
     },
     "web.subscription.action.verify_subscription": {
         "cs-CZ": "Ověřit předplatné",
@@ -2199,7 +2381,8 @@
         "pl-PL": "Potwierdź subskrypcję",
         "pt-BR": "Verifique sua assinatura",
         "ru": "Подтвердите подписку",
-        "tr": "Aboneliğinizi doğrulayın"
+        "tr": "Aboneliğinizi doğrulayın",
+        "sv-SE": "Verifiera din prenumeration"
     },
     "web.subscription.error.already_subscribed": {
         "cs-CZ": "E-mailová adresa {email_address} je již přihlášena k odběru {newsletter}.",
@@ -2211,7 +2394,8 @@
         "pl-PL": "Adres e-mail {email_address} jest już zapisany do {newsletter}.",
         "pt-BR": "O endereço de e-mail {email_address} já está inscrito em {newsletter}.",
         "ru": "Адрес электронной почты {email_address} уже подписан на {newsletter}.",
-        "tr": "{email_address} e-posta adresi zaten {newsletter} için abone."
+        "tr": "{email_address} e-posta adresi zaten {newsletter} için abone.",
+        "sv-SE": "E-postadressen {email_address} är redan prenumerant på {newsletter}."
     },
     "web.subscription.error.blocked": {
         "cs-CZ": "Nelze se přihlásit {email_address} v tuto chvíli.",
@@ -2223,7 +2407,8 @@
         "pl-PL": "Nie można zapisać {email_address} w tym momencie.",
         "pt-BR": "Não é possível inscrever {email_address} no momento.",
         "ru": "В данный момент невозможно оформить подписку для {email_address}.",
-        "tr": "Şu anda {email_address} için abone olunamıyor."
+        "tr": "Şu anda {email_address} için abone olunamıyor.",
+        "sv-SE": "Kan inte lägga till {email_address} som prenumerant just nu."
     },
     "web.subscription.error.cookie_email_mismatch": {
         "cs-CZ": "Nedávno jste se přihlásili pomocí jiné e-mailové adresy. Počkejte prosím několik minut a zkuste to znovu.",
@@ -2235,7 +2420,8 @@
         "pl-PL": "Niedawno zapisałeś się używając innego adresu e-mail. Poczekaj kilka minut i spróbuj ponownie.",
         "pt-BR": "Você se inscreveu usando outro endereço de e-mail recentemente. Por favor, aguarde alguns minutos e tente novamente.",
         "ru": "Недавно вы подписывались с другого адреса электронной почты. Пожалуйста, подождите несколько минут и попробуйте снова.",
-        "tr": "Son zamanlarda başka bir e-posta adresi kullanarak abone oldunuz. Lütfen birkaç dakika bekleyin ve tekrar deneyin."
+        "tr": "Son zamanlarda başka bir e-posta adresi kullanarak abone oldunuz. Lütfen birkaç dakika bekleyin ve tekrar deneyin.",
+        "sv-SE": "Du har nyligen prenumererat med en annan e-postadress. Vänta några minuter och försök igen."
     },
     "web.subscription.error.invalid_email": {
         "cs-CZ": "E-mailová adresa {email_address} není platná.",
@@ -2247,7 +2433,8 @@
         "pl-PL": "Adres e-mail {email_address} nie jest prawidłowy.",
         "pt-BR": "O endereço de e-mail {email_address} não é válido.",
         "ru": "Адрес электронной почты {email_address} некорректен.",
-        "tr": "{email_address} e-posta adresi geçerli değil."
+        "tr": "{email_address} e-posta adresi geçerli değil.",
+        "sv-SE": "E-postadressen {email_address} är inte giltig."
     },
     "web.subscription.error.suppressed": {
         "cs-CZ": "E-mailová adresa {email_address} nemůže být přihlášena k odběru {newsletter}.",
@@ -2259,7 +2446,8 @@
         "pl-PL": "Adres e-mail {email_address} nie może być zapisany do {newsletter}.",
         "pt-BR": "O endereço de e-mail {email_address} não pode ser inscrito em {newsletter}.",
         "ru": "Адрес электронной почты {email_address} нельзя использовать для подписки на {newsletter}.",
-        "tr": "{email_address} e-posta adresi {newsletter} için abone olamaz."
+        "tr": "{email_address} e-posta adresi {newsletter} için abone olamaz.",
+        "sv-SE": "E-postadressen {email_address} kan inte prenumerera på {newsletter}."
     },
     "web.subscription.error.title": {
         "cs-CZ": "Chyba předplatného",
@@ -2271,7 +2459,8 @@
         "pl-PL": "Błąd subskrypcji",
         "pt-BR": "Erro de assinatura",
         "ru": "Ошибка подписки",
-        "tr": "Abonelik hatası"
+        "tr": "Abonelik hatası",
+        "sv-SE": "Prenumerationsfel"
     },
     "web.subscription.error.unable_to_process": {
         "cs-CZ": "V tuto chvíli nemůžeme zpracovat vaše předplatné. Kontaktujte prosím přímo autora newsletteru.",
@@ -2283,7 +2472,8 @@
         "pl-PL": "Nie możemy przetworzyć Twojej subskrypcji w tym momencie. Skontaktuj się bezpośrednio z autorem newslettera.",
         "pt-BR": "Não conseguimos processar sua assinatura no momento. Por favor, entre em contato diretamente com o autor do boletim informativo.",
         "ru": "Сейчас мы не можем обработать вашу подписку. Пожалуйста, свяжитесь с автором рассылки напрямую.",
-        "tr": "Şu anda aboneliğinizi işleyemiyoruz. Lütfen doğrudan bülten yazarıyla iletişime geçin."
+        "tr": "Şu anda aboneliğinizi işleyemiyoruz. Lütfen doğrudan bülten yazarıyla iletişime geçin.",
+        "sv-SE": "Vi kan inte behandla din prenumeration just nu. Kontakta nyhetsbrevets författare direkt."
     },
     "web.subscription.label.invoices": {
         "cs-CZ": "Faktury",
@@ -2295,7 +2485,8 @@
         "pl-PL": "Faktury",
         "pt-BR": "Faturas",
         "ru": "Счета",
-        "tr": "Faturalar"
+        "tr": "Faturalar",
+        "sv-SE": "Fakturor"
     },
     "web.subscription.label.unsubscribed_on": {
         "cs-CZ": "Odhlášen",
@@ -2307,7 +2498,8 @@
         "pl-PL": "Wypisano",
         "pt-BR": "Cancelado em",
         "ru": "Отписка от",
-        "tr": "Abonelikten çıkıldı"
+        "tr": "Abonelikten çıkıldı",
+        "sv-SE": "Avslutad den"
     },
     "web.subscription.label.upgrade_subscription": {
         "cs-CZ": "Upgradujte své předplatné",
@@ -2319,7 +2511,8 @@
         "pl-PL": "Zaktualizuj subskrypcję",
         "pt-BR": "Atualizar assinatura",
         "ru": "Обновить подписку",
-        "tr": "Aboneliğinizi yükseltin"
+        "tr": "Aboneliğinizi yükseltin",
+        "sv-SE": "Uppgradera din prenumeration"
     },
     "web.subscription.label.your_preferences": {
         "cs-CZ": "Tvé nastavení",
@@ -2331,7 +2524,8 @@
         "pl-PL": "Twoje ustawienia",
         "pt-BR": "Suas preferências",
         "ru": "Ваши настройки",
-        "tr": "Tercihleriniz"
+        "tr": "Tercihleriniz",
+        "sv-SE": "Dina inställningar"
     },
     "web.subscription.label.your_premium_subscription": {
         "cs-CZ": "Vaše prémiové předplatné",
@@ -2343,7 +2537,8 @@
         "pl-PL": "Twoja subskrypcja premium",
         "pt-BR": "Sua assinatura premium",
         "ru": "Ваша премиум-подписка",
-        "tr": "Premium aboneliğiniz"
+        "tr": "Premium aboneliğiniz",
+        "sv-SE": "Din premiumprenumeration"
     },
     "web.subscription.label.your_referral_link": {
         "cs-CZ": "Váš doporučovací odkaz:",
@@ -2355,7 +2550,8 @@
         "pl-PL": "Twój link polecający:",
         "pt-BR": "Seu link de indicação:",
         "ru": "Ваша реферальная ссылка:",
-        "tr": "Yönlendirme bağlantınız:"
+        "tr": "Yönlendirme bağlantınız:",
+        "sv-SE": "Din referenslänk:"
     },
     "web.subscription.label.your_subscription": {
         "cs-CZ": "Tvé předplatné",
@@ -2367,7 +2563,8 @@
         "pl-PL": "Twoja subskrypcja",
         "pt-BR": "Sua inscrição",
         "ru": "Ваша подписка",
-        "tr": "Aboneliğiniz"
+        "tr": "Aboneliğiniz",
+        "sv-SE": "Din prenumeration"
     },
     "web.subscription.message.almost_there": {
         "cs-CZ": "Téměř hotovo...",
@@ -2379,7 +2576,8 @@
         "pl-PL": "Prawie gotowe...",
         "pt-BR": "Quase lá...",
         "ru": "Почти готово...",
-        "tr": "Neredeyse bitti..."
+        "tr": "Neredeyse bitti...",
+        "sv-SE": "Nästan klart..."
     },
     "web.subscription.message.click_to_confirm": {
         "cs-CZ": "Klikněte na něj a jste uvnitř!",
@@ -2391,7 +2589,8 @@
         "pl-PL": "Kliknij i jesteś w środku!",
         "pt-BR": "Clique nele e você está dentro!",
         "ru": "Нажмите на неё — и всё готово!",
-        "tr": "Tıklayın ve içeridesiniz!"
+        "tr": "Tıklayın ve içeridesiniz!",
+        "sv-SE": "Klicka så är du med!"
     },
     "web.subscription.message.confirmation_email_sent": {
         "cs-CZ": "Právě jsme vám poslali e-mail pro potvrzení vaší adresy na",
@@ -2403,7 +2602,8 @@
         "pl-PL": "Właśnie wysłaliśmy Ci e-mail potwierdzający Twój adres na",
         "pt-BR": "Acabamos de enviar um e-mail para confirmar seu endereço em",
         "ru": "Мы только что отправили письмо для подтверждения адреса",
-        "tr": "Adresinizi doğrulamak için az önce bir e-posta gönderdik"
+        "tr": "Adresinizi doğrulamak için az önce bir e-posta gönderdik",
+        "sv-SE": "Vi har precis skickat ett mejl för att bekräfta din adress till"
     },
     "web.subscription.message.confirmation_error": {
         "cs-CZ": "Něco se pokazilo při potvrzování vašeho předplatného.",
@@ -2415,7 +2615,8 @@
         "pl-PL": "Coś poszło nie tak podczas potwierdzania subskrypcji.",
         "pt-BR": "Algo deu errado ao confirmar sua assinatura.",
         "ru": "При подтверждении подписки что-то пошло не так.",
-        "tr": "Aboneliğinizi onaylarken bir şeyler yanlış gitti."
+        "tr": "Aboneliğinizi onaylarken bir şeyler yanlış gitti.",
+        "sv-SE": "Något gick fel när din prenumeration skulle bekräftas."
     },
     "web.subscription.message.confirmation_error_title": {
         "cs-CZ": "Chyba při potvrzování předplatného",
@@ -2427,7 +2628,8 @@
         "pl-PL": "Błąd potwierdzenia subskrypcji",
         "pt-BR": "Erro de confirmação de assinatura",
         "ru": "Ошибка подтверждения подписки",
-        "tr": "Abonelik onay hatası"
+        "tr": "Abonelik onay hatası",
+        "sv-SE": "Fel vid prenumerationsbekräftelse"
     },
     "web.subscription.message.contact_me": {
         "cs-CZ": "mě",
@@ -2439,7 +2641,8 @@
         "pl-PL": "mnie",
         "pt-BR": "mim",
         "ru": "мне",
-        "tr": "beni"
+        "tr": "beni",
+        "sv-SE": "mig"
     },
     "web.subscription.message.continue_verification": {
         "cs-CZ": "Pro pokračování v předplatném prosím dokončete níže uvedené ověření.",
@@ -2451,7 +2654,8 @@
         "pl-PL": "Aby kontynuować subskrypcję, uzupełnij weryfikację poniżej.",
         "pt-BR": "Para continuar com sua assinatura, complete a verificação abaixo.",
         "ru": "Чтобы продолжить подписку, пожалуйста, завершите проверку ниже.",
-        "tr": "Aboneliğinize devam etmek için lütfen aşağıdaki doğrulamayı tamamlayın."
+        "tr": "Aboneliğinize devam etmek için lütfen aşağıdaki doğrulamayı tamamlayın.",
+        "sv-SE": "För att fortsätta med din prenumeration, slutför verifieringen nedan."
     },
     "web.subscription.message.customize_interests": {
         "cs-CZ": "Uprav si odebírání tak, aby odpovídalo tvým zájmům.",
@@ -2463,7 +2667,8 @@
         "pl-PL": "Dostosuj subskrypcję do swoich zainteresowań.",
         "pt-BR": "Personalize sua assinatura para corresponder aos seus interesses.",
         "ru": "Настройте подписку в соответствии с вашими интересами.",
-        "tr": "Aboneliğinizi ilgi alanlarınıza göre özelleştirin."
+        "tr": "Aboneliğinizi ilgi alanlarınıza göre özelleştirin.",
+        "sv-SE": "Anpassa din prenumeration efter dina intressen."
     },
     "web.subscription.message.dormant_notice": {
         "cs-CZ": "Tento newsletter je momentálně neaktivní.",
@@ -2475,7 +2680,8 @@
         "pl-PL": "Ten newsletter jest obecnie nieaktywny.",
         "pt-BR": "Este boletim está atualmente inativo.",
         "ru": "Эта рассылка сейчас неактивна.",
-        "tr": "Bu bülten şu anda aktif değil."
+        "tr": "Bu bülten şu anda aktif değil.",
+        "sv-SE": "Detta nyhetsbrev är för närvarande vilande."
     },
     "web.subscription.message.manage_premium_settings": {
         "cs-CZ": "Spravujte nastavení a preference prémiového předplatného.",
@@ -2487,7 +2693,8 @@
         "pl-PL": "Zarządzaj ustawieniami i preferencjami subskrypcji premium.",
         "pt-BR": "Gerencie as configurações e preferências da sua assinatura premium.",
         "ru": "Управляйте настройками и параметрами премиум-подписки.",
-        "tr": "Premium abonelik ayarlarınızı ve tercihlerinizi yönetin."
+        "tr": "Premium abonelik ayarlarınızı ve tercihlerinizi yönetin.",
+        "sv-SE": "Hantera inställningar och preferenser för din premiumprenumeration."
     },
     "web.subscription.message.manage_settings": {
         "cs-CZ": "Nastav si odebírání",
@@ -2499,7 +2706,8 @@
         "pl-PL": "Zarządzaj ustawieniami i preferencjami subskrypcji.",
         "pt-BR": "Gerencie as configurações e preferências da sua assinatura.",
         "ru": "Управляйте настройками и параметрами подписки.",
-        "tr": "Abonelik ayarlarınızı ve tercihlerinizi yönetin."
+        "tr": "Abonelik ayarlarınızı ve tercihlerinizi yönetin.",
+        "sv-SE": "Hantera dina prenumerationsinställningar."
     },
     "web.subscription.message.next_premium_inbox": {
         "cs-CZ": "Další prémiové vydání skončí ve vaší schránce.",
@@ -2511,7 +2719,8 @@
         "pl-PL": "Następne wydanie tylko dla premium trafi do twojej skrzynki odbiorczej.",
         "pt-BR": "A próxima edição apenas premium acabará na sua caixa de entrada.",
         "ru": "Следующий премиум-выпуск придёт к вам во входящие.",
-        "tr": "Bir sonraki yalnızca premium sürüm gelen kutunuza gelecek."
+        "tr": "Bir sonraki yalnızca premium sürüm gelen kutunuza gelecek.",
+        "sv-SE": "Nästa premiumutgåva kommer att hamna i din inkorg."
     },
     "web.subscription.message.premium_subscriber": {
         "cs-CZ": "Jste prémiový předplatitel!",
@@ -2523,7 +2732,8 @@
         "pl-PL": "Jesteś subskrybentem premium!",
         "pt-BR": "Você é um assinante premium!",
         "ru": "Вы — премиум-подписчик!",
-        "tr": "Premium abonesiniz!"
+        "tr": "Premium abonesiniz!",
+        "sv-SE": "Du är en premiumprenumerant!"
     },
     "web.subscription.message.private_notice": {
         "cs-CZ": "Autor tohoto newsletteru ho učinil soukromým.",
@@ -2535,7 +2745,8 @@
         "pl-PL": "Autor tego newslettera uczynił go prywatnym.",
         "pt-BR": "O autor deste boletim o tornou privado.",
         "ru": "Автор этой рассылки сделал её приватной.",
-        "tr": "Bu bültenin yazarı onu özel yaptı."
+        "tr": "Bu bültenin yazarı onu özel yaptı.",
+        "sv-SE": "Författaren till detta nyhetsbrev har gjort det privat."
     },
     "web.subscription.message.read_latest_edition": {
         "cs-CZ": "Přečti si nejnovější vydání",
@@ -2547,7 +2758,8 @@
         "pl-PL": "Przeczytaj najnowsze wydanie",
         "pt-BR": "Leia a edição mais recente",
         "ru": "Читать последний выпуск",
-        "tr": "En son sürümü okuyun"
+        "tr": "En son sürümü okuyun",
+        "sv-SE": "Läs senaste utgåvan"
     },
     "web.subscription.message.receive_all_emails": {
         "cs-CZ": "Obdržíte všechny e-maily, které autor pošle.",
@@ -2559,7 +2771,8 @@
         "pl-PL": "Otrzymasz wszystkie e-maile wysyłane przez autora.",
         "pt-BR": "Você receberá todos os e-mails que o autor enviar.",
         "ru": "Вы будете получать все письма, которые отправляет автор.",
-        "tr": "Yazarın gönderdiği tüm e-postaları alacaksınız."
+        "tr": "Yazarın gönderdiği tüm e-postaları alacaksınız.",
+        "sv-SE": "Du kommer att få alla mejl som författaren skickar."
     },
     "web.subscription.message.referral_notice": {
         "cs-CZ": "Když se přihlásíš k odebírání tohoto newsletteru, <strong>{{ referring_subscriber.email }}</strong> dostane milé poděkování za to, že jejich doporučení zafungovalo.",
@@ -2571,7 +2784,8 @@
         "pl-PL": "Jeśli zapiszesz się na ten newsletter, <strong>{{ referring_subscriber.email }}</strong> otrzyma miłe podziękowanie i informację o tym, że wykorzystano polecajkę.",
         "pt-BR": "Caso você se inscreva em nossa newsletter, <strong>{{ referring_subscriber.email }}</strong> receberá uma boa lembrança de que você assinou via esse link de referência.",
         "ru": "Если вы подпишетесь на эту рассылку, <strong>{{ referring_subscriber.email }}</strong> получит приятное благодарственное письмо, сообщающее о том, что вы подписались по их рекомендации.",
-        "tr": "Bu bültene abone olursanız, <strong>{{ referring_subscriber.email }}</strong> sizin onların yönlendirmesinden kaydolduğunuzu bildiren güzel bir teşekkür notu alacak."
+        "tr": "Bu bültene abone olursanız, <strong>{{ referring_subscriber.email }}</strong> sizin onların yönlendirmesinden kaydolduğunuzu bildiren güzel bir teşekkür notu alacak.",
+        "sv-SE": "Om du prenumererar på detta nyhetsbrev kommer <strong>{{ referring_subscriber.email }}</strong> få ett tackmeddelande om att du anmälde dig via deras rekommendation."
     },
     "web.subscription.message.resubscribe_prompt": {
         "cs-CZ": "Pokud si myslíte, že došlo k chybě — nebo pokud jste změnili názor a chcete se znovu přihlásit — prosím napište",
@@ -2583,7 +2797,8 @@
         "pl-PL": "Jeśli myślisz, że nastąpiła pomyłka — lub jeśli zmieniłeś zdanie i chciałbyś ponownie się zapisać — napisz na",
         "pt-BR": "Se você acha que houve um erro — ou se mudou de ideia e gostaria de se inscrever novamente — envie um e-mail para",
         "ru": "Если вы считаете, что произошла ошибка, или передумали и хотите снова подписаться, пожалуйста, напишите на",
-        "tr": "Bir hata olduğunu düşünüyorsanız — veya fikrinizi değiştirdiyseniz ve tekrar abone olmak istiyorsanız — lütfen e-posta gönderin"
+        "tr": "Bir hata olduğunu düşünüyorsanız — veya fikrinizi değiştirdiyseniz ve tekrar abone olmak istiyorsanız — lütfen e-posta gönderin",
+        "sv-SE": "Om du tror att något har blivit fel — eller om du har ändrat dig och vill prenumerera igen — vänligen mejla"
     },
     "web.subscription.message.subscribed_to": {
         "cs-CZ": "Úspěšně jste se přihlásili k odběru",
@@ -2595,7 +2810,8 @@
         "pl-PL": "Pomyślnie zapisałeś się na",
         "pt-BR": "Você se inscreveu com sucesso em",
         "ru": "Вы успешно подписались на",
-        "tr": "Başarıyla abone oldunuz"
+        "tr": "Başarıyla abone oldunuz",
+        "sv-SE": "Du har nu prenumererat på"
     },
     "web.subscription.message.subscribed_via": {
         "cs-CZ": "Jste přihlášeni k odběru {newsletter} přes {email}.",
@@ -2607,7 +2823,8 @@
         "pl-PL": "Jesteś zapisany do {newsletter} przez {email}.",
         "pt-BR": "Você está inscrito em {newsletter} via {email}.",
         "ru": "Вы подписаны на {newsletter} через {email}.",
-        "tr": "{email} aracılığıyla {newsletter} aboneliğiniz bulunmaktadır."
+        "tr": "{email} aracılığıyla {newsletter} aboneliğiniz bulunmaktadır.",
+        "sv-SE": "Du prenumererar på {newsletter} via {email}."
     },
     "web.subscription.message.success": {
         "cs-CZ": "Úspěšné předplatné",
@@ -2619,7 +2836,8 @@
         "pl-PL": "Subskrypcja udana",
         "pt-BR": "Assinatura bem-sucedida",
         "ru": "Подписка оформлена",
-        "tr": "Abonelik başarılı"
+        "tr": "Abonelik başarılı",
+        "sv-SE": "Prenumerationen lyckades"
     },
     "web.subscription.message.successfully_unsubscribed": {
         "cs-CZ": "Úspěšně jste se odhlásili z",
@@ -2631,7 +2849,8 @@
         "pl-PL": "Pomyślnie wypisałeś się z",
         "pt-BR": "Você cancelou a inscrição com sucesso de",
         "ru": "Вы успешно отписались от",
-        "tr": "Başarıyla abonelikten çıktınız"
+        "tr": "Başarıyla abonelikten çıktınız",
+        "sv-SE": "Du har avslutat prenumerationen på"
     },
     "web.subscription.message.successfully_upgraded": {
         "cs-CZ": "Úspěšně jste upgradovali své předplatné na",
@@ -2643,7 +2862,8 @@
         "pl-PL": "Pomyślnie zaktualizowałeś swoją subskrypcję na",
         "pt-BR": "Você atualizou com sucesso sua assinatura para",
         "ru": "Вы успешно обновили подписку до",
-        "tr": "Aboneliğinizi başarıyla yükselttiniz"
+        "tr": "Aboneliğinizi başarıyla yükselttiniz",
+        "sv-SE": "Du har uppgraderat din prenumeration till"
     },
     "web.subscription.message.support_by_upgrading": {
         "cs-CZ": "Podpoř tento newsletter upgradem svého předplatného.",
@@ -2655,7 +2875,8 @@
         "pl-PL": "Wspieraj ten newsletter, aktualizując swoją subskrypcję.",
         "pt-BR": "Apoie este boletim atualizando sua assinatura.",
         "ru": "Поддержите эту рассылку, обновив подписку.",
-        "tr": "Aboneliğinizi yükselterek bu bülteni destekleyin."
+        "tr": "Aboneliğinizi yükselterek bu bülteni destekleyin.",
+        "sv-SE": "Stöd detta nyhetsbrev genom att uppgradera din prenumeration."
     },
     "web.subscription.message.thanks_for_explaining": {
         "cs-CZ": "Díky, že jsi vysvětlil, proč se odhlašuješ, a přeji hezký den!",
@@ -2667,7 +2888,8 @@
         "pl-PL": "Dzięki za wyjaśnienie, dlaczego się wypisujesz, i miłego dnia!",
         "pt-BR": "Obrigado por explicar por que está cancelando a inscrição e tenha um ótimo dia!",
         "ru": "Спасибо, что рассказали причину отписки. Хорошего вам дня!",
-        "tr": "Neden abonelikten çıktığınızı açıkladığınız için teşekkürler ve iyi günler!"
+        "tr": "Neden abonelikten çıktığınızı açıkladığınız için teşekkürler ve iyi günler!",
+        "sv-SE": "Tack för att du berättade varför du avslutar prenumerationen, och ha en fortsatt trevlig dag!"
     },
     "web.subscription.message.unsubscribe_reason_prompt": {
         "cs-CZ": "Než odejdete, mohli byste nám říct, proč se odhlašujete?",
@@ -2679,7 +2901,8 @@
         "pl-PL": "Zanim odejdziesz, czy mógłbyś powiedzieć, dlaczego się wypisujesz?",
         "pt-BR": "Antes de sair, você se importaria de compartilhar por que está se desinscrevendo?",
         "ru": "Перед тем как уйти, не могли бы вы рассказать, почему отписываетесь?",
-        "tr": "Gitmeden önce neden abonelikten çıktığınızı paylaşır mısınız?"
+        "tr": "Gitmeden önce neden abonelikten çıktığınızı paylaşır mısınız?",
+        "sv-SE": "Innan du går, vill du dela med dig av varför du avslutar prenumerationen?"
     },
     "web.subscription.message.unsubscribe_reason_prompt_with_greeting": {
         "cs-CZ": "Přejeme vám hezký den! Než odejdete, mohli byste nám říct, proč jste se odhlásili?",
@@ -2691,7 +2914,8 @@
         "pl-PL": "Miłego dnia! Zanim odejdziesz, czy mógłbyś powiedzieć, dlaczego się wypisałeś?",
         "pt-BR": "Tenha um ótimo dia! Antes de sair, você se importaria de compartilhar por que se desinscreveu?",
         "ru": "Хорошего вам дня! Перед тем как уйти, не могли бы вы рассказать, почему вы отписались?",
-        "tr": "İyi günler! Gitmeden önce neden aboneliğinizden çıktığınızı paylaşır mısınız?"
+        "tr": "İyi günler! Gitmeden önce neden aboneliğinizden çıktığınızı paylaşır mısınız?",
+        "sv-SE": "Ha en fortsatt trevlig dag! Innan du går, vill du dela med dig av varför du avslutade prenumerationen?"
     },
     "web.subscription.message.unsubscribed_title": {
         "cs-CZ": "Jste odhlášeni",
@@ -2703,7 +2927,8 @@
         "pl-PL": "Wypisałeś się",
         "pt-BR": "Você cancelou a inscrição",
         "ru": "Вы отписались",
-        "tr": "Abonelikten çıktınız"
+        "tr": "Abonelikten çıktınız",
+        "sv-SE": "Du har avslutat prenumerationen"
     },
     "web.subscription.message.upgrade_success": {
         "cs-CZ": "Upgrade úspěšný",
@@ -2715,7 +2940,8 @@
         "pl-PL": "Aktualizacja udana",
         "pt-BR": "Atualização bem-sucedida",
         "ru": "Подписка обновлена",
-        "tr": "Yükseltme başarılı"
+        "tr": "Yükseltme başarılı",
+        "sv-SE": "Uppgraderingen lyckades"
     },
     "web.subscription.message.via_email_at": {
         "cs-CZ": "přes váš e-mail na",
@@ -2727,7 +2953,8 @@
         "pl-PL": "przez twój e-mail na",
         "pt-BR": "via seu e-mail em",
         "ru": "по адресу электронной почты",
-        "tr": "e-posta adresinizden"
+        "tr": "e-posta adresinizden",
+        "sv-SE": "via din e-post på"
     },
     "web.subscription.message.will_sort_out": {
         "cs-CZ": "a já to vyřeším.",
@@ -2739,7 +2966,8 @@
         "pl-PL": "a ja to załatwię.",
         "pt-BR": "e eu vou resolver isso.",
         "ru": "и мы всё уладим.",
-        "tr": "ve ben hallederim."
+        "tr": "ve ben hallederim.",
+        "sv-SE": "så ordnar jag det."
     },
     "web.subscription.reason.no_longer_want": {
         "cs-CZ": "Nechci už tento newsletter dostávat.",
@@ -2751,7 +2979,8 @@
         "pl-PL": "Nie chcę już otrzymywać tego newslettera.",
         "pt-BR": "Não quero mais receber esta newsletter.",
         "ru": "Я больше не хочу получать эту рассылку.",
-        "tr": "Bu bülteni artık almak istemiyorum."
+        "tr": "Bu bülteni artık almak istemiyorum.",
+        "sv-SE": "Jag vill inte längre få detta nyhetsbrev."
     },
     "web.subscription.reason.spam": {
         "cs-CZ": "Tento newsletter je spam.",
@@ -2763,7 +2992,8 @@
         "pl-PL": "Ten newsletter jest spamem.",
         "pt-BR": "Esta newsletter é spam.",
         "ru": "Эта рассылка — спам.",
-        "tr": "Bu bülten spamdir."
+        "tr": "Bu bülten spamdir.",
+        "sv-SE": "Detta nyhetsbrev är spam."
     },
     "web.subscription.reason.rss": {
         "cs-CZ": "Přihlásil(a) jsem se raději přes RSS.",
@@ -2775,7 +3005,8 @@
         "pl-PL": "Zasubskrybowałem przez RSS zamiast.",
         "pt-BR": "Me inscrevi via RSS em vez de.",
         "ru": "Я подписался через RSS.",
-        "tr": "RSS üzerinden abone oldum."
+        "tr": "RSS üzerinden abone oldum.",
+        "sv-SE": "Jag prenumererade via RSS istället."
     },
     "web.subscription.reason.inappropriate": {
         "cs-CZ": "Tento newsletter je nevhodný.",
@@ -2787,7 +3018,8 @@
         "pl-PL": "Ten newsletter jest nieodpowiedni.",
         "pt-BR": "Esta newsletter é inapropriada.",
         "ru": "Эта рассылка неуместна.",
-        "tr": "Bu bülten uygunsuzdur."
+        "tr": "Bu bülten uygunsuzdur.",
+        "sv-SE": "Detta nyhetsbrev är olämpligt."
     },
     "web.survey.message.already_answered": {
         "cs-CZ": "Už jste odpověděli na otázku položenou",
@@ -2799,7 +3031,8 @@
         "pl-PL": "Już odpowiedziałeś na pytanie zadane przez",
         "pt-BR": "Você já respondeu à pergunta feita por",
         "ru": "Вы уже ответили на вопрос от",
-        "tr": "Tarafından sorulan soruyu zaten yanıtladınız"
+        "tr": "Tarafından sorulan soruyu zaten yanıtladınız",
+        "sv-SE": "Du har redan besvarat frågan som ställdes av"
     },
     "web.survey.message.already_completed": {
         "cs-CZ": "Průzkum již dokončen",
@@ -2811,7 +3044,8 @@
         "pl-PL": "Ankieta już ukończona",
         "pt-BR": "Pesquisa já concluída",
         "ru": "Опрос уже пройден",
-        "tr": "Anket zaten tamamlandı"
+        "tr": "Anket zaten tamamlandı",
+        "sv-SE": "Enkäten är redan genomförd"
     },
     "web.survey.message.complete": {
         "cs-CZ": "Průzkum dokončen",
@@ -2823,7 +3057,8 @@
         "pl-PL": "Ankieta ukończona",
         "pt-BR": "Pesquisa concluída",
         "ru": "Опрос завершён",
-        "tr": "Anket tamamlandı"
+        "tr": "Anket tamamlandı",
+        "sv-SE": "Enkäten är slutförd"
     },
     "web.survey.message.from": {
         "cs-CZ": "Průzkum od",
@@ -2835,7 +3070,8 @@
         "pl-PL": "Ankieta od",
         "pt-BR": "A pesquisa de",
         "ru": "Опрос от",
-        "tr": "Anketi"
+        "tr": "Anketi",
+        "sv-SE": "Enkäten från"
     },
     "web.survey.message.has_ended": {
         "cs-CZ": "Průzkum skončil",
@@ -2847,7 +3083,8 @@
         "pl-PL": "Ankieta zakończona",
         "pt-BR": "A pesquisa terminou",
         "ru": "Опрос завершён",
-        "tr": "Anket sona erdi"
+        "tr": "Anket sona erdi",
+        "sv-SE": "Enkäten har avslutats"
     },
     "web.survey.message.not_found": {
         "cs-CZ": "Průzkum nenalezen",
@@ -2859,7 +3096,8 @@
         "pl-PL": "Ankieta nie znaleziona",
         "pt-BR": "Pesquisa não encontrada",
         "ru": "Опрос не найден",
-        "tr": "Anket bulunamadı"
+        "tr": "Anket bulunamadı",
+        "sv-SE": "Enkäten hittades inte"
     },
     "web.survey.message.now_closed": {
         "cs-CZ": "je nyní uzavřen. Děkujeme za váš zájem, ale již nepřijímáme odpovědi.",
@@ -2871,7 +3109,8 @@
         "pl-PL": "jest teraz zamknięty. Dziękujemy za zainteresowanie, ale nie przyjmujemy już odpowiedzi.",
         "pt-BR": "agora está fechado. Obrigado pelo seu interesse, mas não estamos mais aceitando respostas.",
         "ru": "сейчас закрыт. Спасибо за интерес, но мы больше не принимаем ответы.",
-        "tr": "artık kapalı. İlginiz için teşekkürler, ancak artık yanıt kabul etmiyoruz."
+        "tr": "artık kapalı. İlginiz için teşekkürler, ancak artık yanıt kabul etmiyoruz.",
+        "sv-SE": "är nu stängd. Tack för ditt intresse, men vi tar inte längre emot svar."
     },
     "web.survey.message.still_draft": {
         "cs-CZ": "je stále v režimu konceptu. Sleduj svou schránku, až přijde finální verze e-mailu.",
@@ -2883,7 +3122,8 @@
         "pl-PL": "nadal jest w trybie roboczym. Sprawdzaj swoją skrzynkę odbiorczą, aby zobaczyć ostateczną wersję e-maila.",
         "pt-BR": "ainda está em modo rascunho. Fique de olho na sua caixa de entrada para a versão final do e-mail.",
         "ru": "пока находится в черновике. Следите за входящими — финальная версия письма появится позже.",
-        "tr": "hala taslak modunda. E-postanın son sürümü için gelen kutunuzu kontrol edin."
+        "tr": "hala taslak modunda. E-postanın son sürümü için gelen kutunuzu kontrol edin.",
+        "sv-SE": "är fortfarande i utkastläge. Håll utkik i din inkorg efter den slutliga versionen av mejlet."
     },
     "web.survey.message.successfully_answered": {
         "cs-CZ": "Úspěšně jste odpověděli na otázku položenou",
@@ -2895,7 +3135,8 @@
         "pl-PL": "Pomyślnie odpowiedziałeś na pytanie zadane przez",
         "pt-BR": "Você respondeu com sucesso à pergunta feita por",
         "ru": "Вы успешно ответили на вопрос от",
-        "tr": "Tarafından sorulan soruyu başarıyla yanıtladınız"
+        "tr": "Tarafından sorulan soruyu başarıyla yanıtladınız",
+        "sv-SE": "Du har framgångsrikt svarat på frågan ställd av"
     },
     "web.survey.message.you_responded": {
         "cs-CZ": "Odpověděli jste!",
@@ -2907,6 +3148,7 @@
         "pl-PL": "Odpowiedziałeś!",
         "pt-BR": "Você respondeu!",
         "ru": "Ответ отправлен!",
-        "tr": "Yanıtladınız!"
+        "tr": "Yanıtladınız!",
+        "sv-SE": "Du har svarat!"
     }
 }

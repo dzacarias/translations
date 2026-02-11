@@ -15,4 +15,5 @@ Supported languages include:
 | Polish              | pl-PL |
 | Portuguese (Brazil) | pt-BR |
 | Russian             | ru    |
+| Swedish             | sv-SE |
 | Turkish             | tr    |

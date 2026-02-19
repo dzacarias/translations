@@ -1916,6 +1916,19 @@
         "tr": "Arşiv",
         "sv-SE": "Arkiv"
     },
+    "web.navigation.back_to_newsletter": {
+        "cs-CZ": "Zpět na newsletter",
+        "de": "Zurück zum Newsletter",
+        "en": "Back to newsletter",
+        "es": "Volver al boletín",
+        "fr": "Retour à la newsletter",
+        "nl-NL": "Terug naar nieuwsbrief",
+        "pl-PL": "Wróć do newslettera",
+        "pt-BR": "Voltar para a newsletter",
+        "ru": "Назад к рассылке",
+        "tr": "Bültene geri dön",
+        "sv-SE": "Tillbaka till nyhetsbrevet"
+    },
     "web.navigation.all": {
         "cs-CZ": "vše:",
         "de": "alle:",

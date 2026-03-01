@@ -2566,6 +2566,19 @@
         "tr": "{email_address} e-posta adresi geçerli değil.",
         "sv-SE": "E-postadressen {email_address} är inte giltig."
     },
+    "web.subscription.error.no_subscriber": {
+        "cs-CZ": "Pro tuto e-mailovou adresu nebylo nalezeno žádné předplatné.",
+        "de": "Kein Abonnement für diese E-Mail-Adresse gefunden.",
+        "en": "No subscription found for this email address.",
+        "es": "No se encontró ninguna suscripción para esta dirección de correo electrónico.",
+        "fr": "Aucun abonnement trouvé pour cette adresse e-mail.",
+        "nl-NL": "Geen abonnement gevonden voor dit e-mailadres.",
+        "pl-PL": "Nie znaleziono subskrypcji dla tego adresu e-mail.",
+        "pt-BR": "Nenhuma assinatura encontrada para este endereço de e-mail.",
+        "ru": "Подписка для этого адреса электронной почты не найдена.",
+        "tr": "Bu e-posta adresi için abonelik bulunamadı.",
+        "sv-SE": "Ingen prenumeration hittades för denna e-postadress."
+    },
     "web.subscription.error.suppressed": {
         "cs-CZ": "E-mailová adresa {email_address} nemůže být přihlášena k odběru {newsletter}.",
         "de": "Die E-Mail-Adresse {email_address} kann nicht für {newsletter} angemeldet werden.",

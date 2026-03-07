@@ -2086,17 +2086,17 @@
         "sv-SE": "Nyare arkiv"
     },
     "web.navigation.of_this_newsletter": {
-        "cs-CZ": "tohoto newsletteru.",
-        "de": "dieses Newsletters.",
-        "en": "of this newsletter.",
-        "es": "de este boletín.",
-        "fr": "de cette newsletter.",
-        "nl-NL": "van deze nieuwsbrief.",
-        "pl-PL": "tego newslettera.",
-        "pt-BR": "deste boletim.",
+        "cs-CZ": "tohoto newsletteru",
+        "de": "dieses Newsletters",
+        "en": "of this newsletter",
+        "es": "de este boletín",
+        "fr": "de cette newsletter",
+        "nl-NL": "van deze nieuwsbrief",
+        "pl-PL": "tego newslettera",
+        "pt-BR": "deste boletim",
         "ru": "этой рассылки",
-        "tr": "bu bültenin.",
-        "sv-SE": "av det här nyhetsbrevet."
+        "tr": "bu bültenin",
+        "sv-SE": "av det här nyhetsbrevet"
     },
     "web.navigation.older_archives": {
         "cs-CZ": "Starší záznamy",
